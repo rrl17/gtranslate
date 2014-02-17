@@ -1,0 +1,56 @@
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+a:link,
+a:visited{
+    display:block;
+    font-weight:bold;
+    color:white;
+    background-color:#8856a7;
+    width:200px;
+    text-align:left;
+    text-transform:uppercase;
+    text-decoration:none;
+}
+a.menu:hover,
+a.menu:active{
+    background-color:indigo;
+}
+div.desc{
+    position:absolute;
+    right:0px;
+    color:white;
+    display:block;
+    width:200px;
+}
+img
+{
+    opacity:0.6;
+}
+img:hover
+{
+    opacity:1.0; z-index:1;
+}
+p.img{display:inline-block;}
+img.sub{display:inline}
+img.english{margin-top:-80px; opacity:1; z-index:1;}
+table{position:relative;margin-right:auto; margin-left:auto; z-index:auto}
+img.french{
+    transform:rotate(-25deg);
+    /*width:28%;
+    height:50%;*/
+    margin:-50px 0 0 0;
+}
+img.german{
+    /*width:26%;
+    height:22%;*/
+}
+img.slovak{
+    /*width:25%;
+    height:36%;*/
+    transform:rotate(25deg);
+    margin:0 0 0 0;
+}
