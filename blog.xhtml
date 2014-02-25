@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Blog History</title>
+        <link rel="stylesheet" type="text/css" href="general.css"/>
+    </head>
+    <body>
+        <h2>Blog History</h2>
+        <h3>Fri, 01/31/2014</h3><h4>etf7</h4>
+        <p> This week has been mainly focused on obtaining the texts. Since we have decided that we
+            will for sure be using Harry Potter, we have to get around legal issues. Thankfully our
+            professor knows someone that has sections of the text we want, in several different
+            languages. Of the ones that we can use, there is English, German, and Slovak. The only
+            language that we need now will be French. Fortunately, one of our proactive team members
+            has already seen that the French version of the text can be checked out at the Carnegie.
+            The only problem with this is that now the French text will need to be typed up.
+        </p><p>Our next steps are to sit down and think about what we will be looking for, what
+            will we be contrasting with the other foreign languages, and how we want to display our
+            findings. We are all linguistic majors, so we will have this as our main focus. We will
+            see if there is something that can be explained linguistically in terms of any errors
+            made by Google translate. </p>
+        <h3>Fri, 02/07/2014</h3><h4>rrl17</h4>
+        <p>Hello!</p>
+        <p>This past week we discussed what our focus should be. We decided that for comparison
+            purposes, we should focus on translating each foreign text into English and compare it
+            with the original English version of Harry Potter 1, rather than translating from
+            English to the foreign languages. However, if we have time we may do a small selection
+            of text in the other direction for comparison. We discussed our expectations for the
+            errors and possible markup, and, in order to create our schema, we each took a sample of
+            our choice language (French, German, and Slovak) and translated it into English, marking
+            everything that deviates from the original English and noting what type of error it is.
+            We will be comparing these and making our schema within the next week. </p><p>We also
+                received confirmation of access to ParaSol and discovered that actually does have a
+                French version of Harry Potter 1 =D </p><p>We have also been working on our home page
+                    and should be getting it onto github very soon.</p>
+        <h3>Fri, 02/14/2014</h3><h4>etf7</h4>
+        <p> We have gathered our texts! And this past week we spent some time individually marking
+            them up for what we’re calling “divergences.” Based on our preliminary mark ups and
+            based on some linguistic papers that give guidelines on how to mark up errors in writing
+            and in speech, we’re going to sit down tomorrow and finalize how we’re going to
+            categorize and code these divergences.</p><p> Some of our thoughts so far: So we’re
+                using the term “divergences” because the mark up we do isn’t going to explicitly be
+                error mark up. First of all, what is an error, i.e., what needs to be corrected to make
+                the sentence grammatical, is an arbitrary decision. For example, “The boy have a
+                bicycle.” Depending on how you look at it, the error could be that the subject NP is not
+                plural OR the verb is not correctly conjugated (“The boys have a bicycle” versus “The
+                boy has a bicycle”).</p><p> To compensate for this and to compensate for the unwieldy
+                    amount of divergences we’re sure to find in at least the Slovak translations (Google
+                    translate handles German fairly well!), we have decided to sit down tomorrow and try out
+                    the idea of marking all the verbs in both translations -- and in the process, we’ll
+                    necessarily identify all the clauses and sentences as well -- and then we’ll mark
+                    whether or not the gTranslated verb differs from the official English version. Finally,
+                    we plan to note how the verbs differ.... are they a synonym for what’s in the official
+                    English, but still grammatically meaningful? Are they lexically incorrect? Do they
+                    differ in tense, subject, direct object?</p><p> Finally, when once we accumulate our
+                        data, for each translation, we can give ratios and report on the number of divergences
+                        that appeared per sentence, per paragraph, per passage, per chapter, etc. And we can
+                        give percentages on what percentage of divergences in each translation was still
+                        grammatical versus ungrammatical, and on what kind of grammaticality existed. </p>
+        <h3>Fri, 02/21/2014</h3><h4>etf7</h4>
+        <p> For our project, we have a very interesting aspect that is diversity within the same end
+            goal. It isn't the easiest thing to work with four different languages, and then try to
+            compare the results. To do so, this is why we are using the English text of Harry
+            Potter, translated into our foreign languages of choice, then back into English. Also,
+            it is super relevant because of the primary use of Google Translate. Most of the time,
+            users will be taking a foreign language and translating it into their own, which is what
+            we are doing in our project! This past week we have been able to mark up the
+            translations of our texts. In our last meeting we wrote our Relax NG schema for the XML
+            documents that we are making for each of the languages. </p><p> We have the tag 's'
+                around each sentence, with the mandatory attributes "in" for insertion, "del" for
+                deletion, "tr" for transposition, and "diff" for difference. It is then within each
+                sentence that we can specifically use the tag 'diff' to specify what the differences
+                are. For each tag of 'diff', we have to choose one of the following attributes, "det",
+                "n", "v", "adj", "adv", "pp", "pro", respectively based on the part of speech. We then
+                also have to choose a type attribute for the 'diff', which will be one of the following,
+                "ten", "cas", "num", "gen", "mst", or "moo". These are the tense, case, number, gender,
+                mistranslate, and mood errors. This is a great way to tag our documents so that we will
+                all be able to compare our findings when we are all done with the same sections.</p>
+    </body>
+</html>
