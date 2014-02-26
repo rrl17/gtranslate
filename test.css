@@ -32,8 +32,9 @@ a.menu:hover,
 a.menu:active{
     background-color:indigo;
 }
-div.menu {border:10px solid navy;
-border-collapse:collapse;}
+div.menu {border:5px solid navy;
+width: 200px;
+border-radius:20px;}
 div.desc{
     position:absolute;
     right:0px;
