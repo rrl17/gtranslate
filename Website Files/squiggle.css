@@ -1,0 +1,8 @@
+span.dif
+{
+background-image:url("squiggle.gif");
+background-repeat:repeat-x;
+background-position:left bottom;
+
+}
+span.ast {color:red}
