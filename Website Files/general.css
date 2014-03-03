@@ -1,0 +1,50 @@
+body{background-color:#ffffff;
+    color:#000000;
+    background-image:url(owlbg2sepia.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    text-align:center;
+    background-size:100%;
+}
+div.img
+  {
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0px;
+  width: 550px;
+  height: 300px;
+  overflow: hidden;
+  text-align:center
+  }
+
+h1 {     
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    height:auto;
+    padding:0px;
+    text-align: center;
+    font-family:"Georgia"
+    }
+
+p{
+    background-color:#f1f1d4;
+    color:#000000;
+    font-family:"Georgia"; 
+    margin:auto; 
+    width:575px; 
+    padding:10px;
+    text-align:left;  
+    margin-left:auto;
+    margin-right:auto
+}
+table.globe{
+    background-color:#f1f1d4;
+    color:#000000;
+    font-family:"Georgia"; 
+    margin:auto; 
+    width:590px; 
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto
+}
