@@ -1,0 +1,8 @@
+start = txt 
+txt = element txt {chapter+}
+chapter = element chapter {p+}
+p = element p {s*}
+s = element s {mixed{del|dif*}}
+del = element del {text}
+dif = element dif {id, text}
+id = attribute id {xsd:int}

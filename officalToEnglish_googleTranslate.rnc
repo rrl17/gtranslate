@@ -1,0 +1,11 @@
+start = txt 
+txt = element txt {chapter+}
+chapter = element chapter {p+}
+p = element p {s*}
+s = element s {tr, mixed{(dif|ins)*}}
+ins = element ins {text}
+tr = attribute tr {xsd:boolean}
+dif = element dif {id, pos, type, text}
+id = attribute id {xsd:int}
+pos = attribute pos {'det'|'n'|'v'|'adj'|'adv'|'pp'|'pro'|'conj'|'int'}
+type = attribute type {'ten'|'cas'|'num'|'gen'|'mst'|'moo'|'asp'|'per'|'mis'|'del'|'pos'}
