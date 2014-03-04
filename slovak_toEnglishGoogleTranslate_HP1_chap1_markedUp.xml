@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="officalToEnglish_googleTranslate.rnc" type="application/relax-ng-compact-syntax"?>
+<txt>
+    <chapter>
+
+        <p>
+            <s tr="1">Mr. and Mrs. Dursley of number four Privet Drive <ins>is</ins>
+                <dif id="1" pos="mst" type="ten">proud</dif> of <dif id="2" pos="pro" type="num"
+                />himself claimed <dif id="3" pos="v" type="ten">to be</dif> fully normal ,
+                    <ins>but</ins> thank you very much .</s>
+            <s tr="o"><dif id="24" pos="v" type="tense">Are</dif>
+                <ins>at</ins> last from niekto who <dif id="4" pos="v" type="tense">expected</dif>
+                <ins>to be</ins>
+                <dif id="5" pos="v" type="ten">tangled</dif> in <dif id="6" pos="n" type="mst"
+                    >voľačoho</dif>
+                <dif id="7" pos="adj" type="mst">special</dif>
+                <dif id="8" pos="conj" type="mst">or</dif> mysterious , because such a thing
+                considered simply <ins>as</ins>
+                <ins>be</ins>
+                <dif id="9" pos="v" type="mst">excluded</dif>.</s>
+        </p>
+
+        <p>
+            <s tr="1">Mr. Dursley was the director of Vrtamex , which made drills .</s>
+            <s tr="1"><dif id="10" pos="pro" type="mst">It</dif> was a big , fat man <dif id="11"
+                    pos="pp" type="mst">with</dif> almost <ins>no</ins> neck , <dif id="12"
+                    pos="conj" type="mst">but</dif> with a huge mustache .</s>
+            <s tr="1">Mrs. Dursley was again <dif id="13" pos="adj" type="mst">poor</dif> blonde
+                with a neck twice <ins>as</ins> long as usual , what was in her case tremendously
+                practical - a large part of <dif id="14" pos="pro" type="num">their</dif> free time
+                in fact spent <ins>by</ins>
+                <ins>him</ins>
+                <dif id="15" pos="v" type="gen">craning</dif> over garden fence and <dif id="16"
+                    pos="v" type="ten">spy</dif> on neighbors .</s>
+            <s tr="1">The Dursleys had a small son , <dif id="17" pos="pro" type="mst">which</dif>
+                were <dif id="18" pos="adj" type="mst">believe</dif> that <dif id="19" pos="pro"
+                    type="mst">this</dif> is the <dif id="20" pos="adj" type="mst">coolest</dif>
+                <dif id="21" pos="n" type="mst">guy</dif> in the world .</s>
+        </p>
+
+        <p>
+            <s tr="1">The Dursleys had everything they wanted , but also had one terrible secret,
+                and were afraid <dif id="24" pos="v" type="ten">to disclose</dif>.</s>
+            <s tr="0"><ins>Assumption that there</ins>
+                <dif id="25" pos="v" type="mst">is</dif>someone out about the Potters , <dif id="26"
+                    pos="adv" type="mst">probably</dif> would not <dif id="27" pos="v" type="mst"
+                    >survive</dif> .</s>
+            <s tr="1"><dif id="28" pos="n" type="mst">lady</dif> Potter was Mrs. Dursley's sister ,
+                but both <ins>are</ins>
+                <dif id="29" pos="v" type="ten">seen</dif> for several years , actually Mrs. Dursley
+                    <ins>was</ins> pretended that any sister <dif id="30" pos="v" type="mst"
+                    >does</dif>, because her sister with her <dif id="31" pos="adj" type="mst"
+                    >team</dif>
+                <dif id="32" pos="n" type="mst">men</dif> were <dif id="33" pos="adv" type="mst"
+                    >so</dif>
+                <ins>-error</ins>
+                <dif id="34" pos="adj" type="mst">nedursleyovskí</dif>
+                <ins>the</ins> worse it <dif id="35" pos="v" type="mst">could</dif> be even
+                    <ins>longer</ins> .</s>
+            <s tr="1">Dursleys <dif id="36" pos="v" type="mst">striasalo</dif> just thinking about
+                what the neighbors would say if the Potters appeared in their street .</s>
+            <s tr="0">The Dursleys knew that the Potters <dif id="37" pos="v" type="tense"
+                    >have</dif> a young son , However, <dif id="38" pos="pro" type="mst">it</dif>
+                <ins>has</ins>
+                <ins>never</ins>
+                <dif id="39" pos="v" type="ten">seen</dif>
+                <ins>before</ins>. </s>
+            <s tr="">This <dif id="40" pos="n" type="mst">guy</dif> was another reason why the
+                Potters did not desire encounter did not want Dudley with <ins>the</ins>
+                <dif id="41" pos="pro" type="mst">kid</dif>
+                <ins>they</ins>
+                <dif id="42" pos="v" type="ten">socialized</dif> .</s>
+        </p>
+
+        <p>
+            <s tr="0">The Dursleys <ins>will</ins> one day <dif id="43" pos="v" type="ten">wake
+                    up</dif> to the bleak , gray Tuesday when <dif id="44" pos="v" type="mst"
+                    >initiating our story</dif> , but nothing <dif id="45" pos="adj" type="cas"
+                    >cloudy</dif>
+                <dif id="46" pos="adj" type="cas">cloudy</dif>
+                <dif id="47" pos="v" type="ten">indications</dif> that across the country <dif
+                    id="48" pos="v" type="ten">will</dif> happen strange and mysterious things .</s>
+            <s tr="0">Mr. Dursley just <ins>a</ins>
+                <ins>tie</ins> to work his most boring tie and <dif id="49" pos="v" type="mst"
+                    >croon</dif> , while Mrs. Dursley <dif id="50" pos="v" type="ten">cramming</dif>
+                <dif id="51" pos="v" type="mst">defending</dif> and screaming Dudley into baby chair
+                and cheerfully <ins>at</ins>
+                <ins>the</ins>
+                <dif id="52" pos="v" type="mst">štebotala</dif> .</s>
+        </p>
+
+        <p>
+            <s tr="1">Neither of them noticed a large , tan owl , who just flew <dif id="53"
+                    pos="pp" type="mst">forefront</dif> of their window .</s>
+        </p>
+
+        <p>
+            <s tr="0">About half past eight , Mr Dursley grabbed his briefcase , kissed on the cheek
+                Mrs. Dursley attempted the same thing <dif id="54" pos="pp" type="mst">in</dif>
+                Dudley , but missed , because Dudley had just <dif id="55" pos="v" type="mst"
+                    >seized</dif> a rage and began hitting the wall <dif id="56" pos="n" type="case"
+                    >cereal</dif> .</s>
+            <s tr="1">" Our little rascal , " laughed Mr. Dursley as he left .</s>
+            <s tr="1">He got into the car , and slowly backed away from <ins>the</ins> house number
+                4</s>
+        </p>
+
+        <p>
+            <s tr="1">On a street corner <dif id="57" pos="pro" type="mst">you</dif> first noticed
+                something strange - a cat <dif id="58" pos="conj" type="mst">that</dif>
+                <dif id="59" pos="v" type="ten">read</dif>
+                <ins>the</ins> map .</s>
+            <s tr="1"><dif id="60" pos="pp" type="mst">In</dif> the first <dif id="61" pos="n"
+                    type="mst">time</dif> did not realize what <dif id="62" pos="pro" type="num"
+                    >they</dif> saw - sharply turned his head to look again .</s>
+            <s tr="0">At the corner of Privet Drive stood tabby cat, but no trace <dif id="63"
+                    pos="pp" type="mst">around</dif> the map .</s>
+            <s tr="1">What <ins>he 's</ins>
+                <dif id="64" pos="adv" type="mst">ever</dif> occurred to <dif id="65" pos="pro"
+                    type="mst">um</dif> ?</s>
+            <s tr="1">It must have been an optical illusion .</s>
+            <s tr="1">Mr. Dursley blinked and stared at the cat .</s>
+            <s tr="1">She stared at him .</s>
+            <s tr="1">When <dif id="66" pos="v" type="mst">branched</dif> towards <ins>his</ins>
+                <dif id="67" pos="n" type="mst">head</dif>, looked into the mirror.</s>
+            <s tr="0">Cat <ins>you</ins>
+                <dif id="68" pos="adv" type="mst">just</dif> read <dif id="69" pos="n" type="mst"
+                    >table</dif>
+                <dif id="70" pos="v" type="mst">named</dif>
+                <ins>their</ins>
+                <dif id="71" pos="n" type="num">streets</dif> - not looked at <dif id="72" pos="n"
+                    type="mst">it</dif> , <ins>the</ins> cats <dif id="73" pos="v" type="mst"
+                    >did</dif> not read , <ins>or</ins> maps , or <dif id="74" pos="n" type="mst"
+                    >inscriptions</dif> .</s>
+            <s tr="0">Mr. Dursley <dif id="75" pos="v" type="mst">shook</dif>
+                <ins>his</ins>
+                <ins>head</ins> and cat <dif id="76" pos="v" type="mst">forgotten</dif> .</s>
+            <s tr="0">As <dif id="77" pos="pro" type="num">we</dif> approach the <dif id="78"
+                    pos="n" type="mst">city</dif> , thought <ins>to have</ins>
+                <dif id="79" pos="n" type="cas">nothing</dif>
+                <dif id="80" pos="conj" type="mst">but</dif> the big order , which <dif id="81"
+                    pos="v" type="ten">would</dif>
+                <dif id="82" pos="adj" type="mst">one</dif> day <dif id="83" pos="v" type="mst"
+                    >like</dif> to receive .</s>
+        </p>
+
+        <p>
+            <s tr="1">but <dif id="84" pos="pp" type="mst">when</dif>
+                <ins>going</ins>
+                <dif id="85" pos="pp" type="mst">into</dif>
+                <dif id="86" pos="n" mst="cas">town</dif> , <dif id="87" pos="n" mst="cas"
+                    >drills</dif>
+                <dif id="88" pos="v" mst="ten">drove</dif> out of his head again <dif id="89"
+                    pos="n" mst="cas">something</dif> else .</s>
+            <s tr="0">As he <dif id="89" pos="v" type="mst">stood</dif> in the usual morning traffic
+                jam , he could not help but notice that the <dif id="90" pos="n" type="cas"
+                    >street</dif> walking strangely <dif id="91" pos="n" type="mst">amount</dif>
+                <dif id="92" pos="adj" type="mst">poobliekaných</dif> people .</s>
+            <s tr="1">People in <dif id="93" pos="n" type="mst">coats </dif>.</s>
+            <s tr="1">Mr. Dursley hated <dif id="94" pos="adj" type="mst">poobliekaných</dif> crazy
+                people - oh , those awful <dif id="95" pos="n" type="mst">clothes</dif> in which
+                today's young go !</s>
+            <s tr="0">It occurred to him that this <ins>again</ins>
+                <dif id="96" pos="v" type="ten"> is</dif>
+                <in>not</in>
+                <dif id="97" pos="adj" type="mst">dajaký</dif>
+                <ins>scored</ins> a fashion <dif id="98" pos="n" type="mst">hit</dif> .</s>
+            <s tr="1">Drummed <dif id="99" pos="pro" type="gen">her</dif> fingers over the steering
+                wheel, and suddenly his eyes fell on the group very <dif id="100" pos="adj"
+                    type="cas">strange</dif>
+                <dif id="101" pos="n" type="cas">people</dif> close to him .</s>
+            <s tr="1">Excitedly whispered something .</s>
+            <s tr="1">Mr Dursley most outraged when he discovered that some of them <dif id="102"
+                    pos="v" type="ten">are</dif> no longer the youngest , that one man , for example
+                , <dif id="103" pos="v" type="ten">is</dif> certainly older than him and wearing a
+                emerald green cloak !</s>
+            <s tr="0">That is not <dif id="104" pos="v" type="mst">ashamed</dif> !</s>
+            <s tr="0">But then <dif id="105" pos="n" type="cas">Mr. Dursley</dif> occurred to that
+                probably <dif id="106" pos="v" type="mst">goes</dif>
+                <ins>back</ins>
+                <dif id="107" pos="pp" type="mst">on</dif> some <dif id="108" pos="adj" type="mst"
+                    >nuts</dif> campaign - these people certainly <dif id="109" pos="v" type="ten"
+                    >collected</dif> money for something ...</s>
+            <s tr="1">yes, it <dif id="110" pos="v" type="ten">will</dif> .</s>
+            <s tr="0">The <dif id="111" pos="n" type="mst">column</dif>
+                <ins>was</ins> moved and came in a few minutes Mr. Dursley to the parking lot and
+                    <dif id="112" pos="n" type="cas">head</dif> of Vrtamex again had only <dif
+                    id="113" pos="pro" type="num">themselves</dif> drills .</s>
+        </p>
+
+        <p>
+            <s tr="0
+                ">Mr. Dursley sat in <ins>an</ins> office on the ninth floor
+                always <dif id="114" pos="n" type="cas">back</dif> to the window .</s>
+            <s tr="0">if <dif id="115" pos="v" type="ten">sitting</dif>
+                <dif id="116" pos="n" type="cas">face</dif> to the window , he <dif id="117" pos="v"
+                    type="ten">would</dif> probably <dif id="118" pos="v" type="mst">be</dif> in
+                that day pretty big problems <dif id="119" pos="v" type="ten">to focus</dif> only on
+                drills .</s>
+            <s tr="0"><ins>A</ins>
+                <ins>as</ins>
+                <dif id="120" pos="v" type="ten">seen</dif> owls <dif id="121" pos="conj" type="mst"
+                    >that</dif> flew in broad daylight around town , although people on the street
+                saw them ; they <dif id="122" pos="v" type="mst">hovered</dif> over their heads one
+                by one , they pointed <ins>a</ins>
+                <dif id="123" pos="n" type="num">finger</dif> at them and watching them with
+                    <ins>an</ins> open <dif id="124" pos="n" type="num">mouth</dif> .</s>
+            <s tr="1">Mr. Dursley <dif id="125" pos="v" type="mst">survived</dif> quite normal
+                morning without owls.</s>
+            <s tr="1">scolded five people .</s>
+            <s tr="0">He <dif id="126" pos="v" type="mst">recalled</dif> some important phone calls
+                and again someone scolded .</s>
+            <s tr="0">had a good noon mood and <dif id="127" pos="pro" type="mst">you</dif> said a
+                little <dif id="128" pos="n" type="mst">stirs</dif>
+                <dif id="129" pos="n" type="cas">the legs</dif> , <dif id="130" pos="v" type="ten"
+                    >goes</dif> to the bakery <ins>to</ins> across the street and <dif id="131"
+                    pos="v" type="ten">buy</dif> something to eat .</s>
+        </p>
+
+        <p>
+            <s tr="0">Quite <dif id="132" pos="v" type="ten">forgotten</dif>
+                <dif id="133" pos="n" type="cas">individuals</dif> in the <dif id="134" pos="n"
+                    type="mst">bodies</dif> , but suddenly a bit before the bakery again <dif
+                    id="135" pos="v" type="mst">missed</dif> the group very <dif id="136" pos="adj"
+                    type="cas">strange</dif>
+                <dif id="137" pos="n" type="cas">people</dif> .</s>
+            <s tr="1">He walked past them , cast an evil eye on them .</s>
+            <s tr="1">He did not know why, but it <dif id="138" pos="v" type="mst">zneisťovali
+                </dif>.</s>
+            <s tr="">When <dif id="139" pos="pro" type="num">they</dif> returned back along with a
+                large paper cone bag , he heard a snippet of their conversation .</s>
+        </p>
+
+        <p>
+            <s tr="">" The Potters , indeed, I heard it ...</s>
+        </p>
+
+        <p>
+            <s tr="">" ...</s>
+            <s tr="">Yes, their son , Harry ...</s>
+        </p>
+
+        <p>
+            <s tr="">Mr. Dursley zdúpnel .</s>
+            <s tr="">Horror seized him .</s>
+            <s tr="">Looking back towards those people if they wanted to say something , but
+                subsequently changed his mind .</s>
+        </p>
+
+        <p>
+            <s tr="">He ran across the road, rushed to her office , the secretary shouted to him
+                disturb , grabbed the phone .</s>
+            <s tr="">Once tapped home phone number , changed his mind .</s>
+            <s tr="">Hang up , stroking a beard and wondering ...</s>
+            <s tr="">no , the message is stupid .</s>
+            <s tr="">Potter did There is no unusual name .</s>
+            <s tr="">Potter is certainly many of them , even those that have a son Harry.</s>
+            <s tr="">And actually did not know whether his nephew was called Harry .</s>
+            <s tr="">In life this guy seen.</s>
+            <s tr="">Can be called Harvey .</s>
+            <s tr="">Or Harold .</s>
+            <s tr="">There is no reason to troubled Mrs. Dursley , at any mention of her sister was
+                always very angry .</s>
+            <s tr="">Nor is it No wonder - if he had such a sister ...</s>
+            <s tr="">but still , those people in cloaks ...</s>
+        </p>
+
+        <p>
+            <s tr=""> Afternoon already knew the drill so well focused , and at five o'clock when
+                based on building was so worried that crashed into Mr stationary at the entrance
+                .</s>
+        </p>
+
+        <p>
+            <s tr="">" Excuse me , " grumbled when the old, poor man lost his balance and almost
+                fell .</s>
+            <s tr="">Soon Mr Dursley noticed that the man is wearing a purple cloak .</s>
+            <s tr="">Absolutely not mind that somebody almost toppled to the ground .</s>
+            <s tr="">On the contrary, his face appeared širokánsky smile and squeaky voice , in
+                which passers wonderingly obzerali , said : " You do not have apologize , my dear ,
+                today I did not solve the rate !</s>
+            <s tr="">Rejoice , You-Know - Who finally passed !</s>
+            <s tr="">Even Muggles like you should enjoy in this happy , overjoyed day!"</s>
+        </p>
+
+        <p>
+            <s tr="">The old man hugged Mr. Dursley and walked away .</s>
+        </p>
+
+        <p>
+            <s tr="">Mr. Dursley stood as transfixed .</s>
+            <s tr="">Embraced him quite a stranger .</s>
+            <s tr="">And I think he called Muggle , whatever that means anything .</s>
+            <s tr="">He was terrified of it .</s>
+            <s tr="">Hurriedly walked to the car and way home you insinuate that everything was
+                probably just a figment of his imagination , which however, would never admit so far
+                , because imagination itself never acknowledge .</s>
+        </p>
+
+        <p>
+            <s tr="">When he turned on the access path to the house No. 4 , the first thing he saw -
+                and he truly mood not improved - was a cat that noticed in the morning .</s>
+            <s tr="">Now she was sitting on a garden parapet .</s>
+            <s tr="">was 'm sure it's her , had exactly the same speckles around the eyes .</s>
+        </p>
+
+        <p>
+            <s tr="">" Shoo !</s>
+            <s tr="">" Chased after her , Mr Dursley .</s>
+        </p>
+
+        <p>
+            <s tr="">The cat did not move .</s>
+            <s tr="">Just looked at him closely .</s>
+            <s tr="">Is this normal?</s>
+            <s tr="">Mr. Dursley wondered .</s>
+            <s tr="">While recovering , and then went into the house .</s>
+            <s tr="">Was still firmly resolved that his wife alludes not .</s>
+        </p>
+
+        <p>
+            <s tr="">Mrs. Dursley lived a pretty nice , normal day .</s>
+            <s tr="">At dinner, talked about man the problems that Ms from neighbors with her
+                daughter , also that Dudley had learned a new word ( " Do " ) .</s>
+            <s tr="">Mr. Dursley he tried to behave normally.</s>
+            <s tr="">When Mrs. Dursley impose Dudley's sleep , went into the living room and caught
+                the last message the evening TV newspaper : " Birdwatchers from across the country
+                have reported to us that owls are now behaving most unusual .</s>
+            <s tr="">Although normally hunt at night and during the day they almost can not see ,
+                these birds was now seen from the east to the innumerable places like flying all
+                directions .</s>
+            <s tr="">Scientists can not explain why the owls suddenly changed his life rhythm . "
+                Moderator smiled .</s>
+            <s tr="">" The real mystery .</s>
+            <s tr="">And now I put the word Jim McGuffin and weather reports .</s>
+            <s tr="">Tonight we count on other Owl shower, Jim ?"</s>
+        </p>
+
+        <p>
+            <s tr=""> " Well , " began the second presenter , ' about it , although I know nothing ,
+                but only owls are now behaving strangely .</s>
+            <s tr="">Viewers from distant counties , such as Kent , Yorkshire and Dundee , we phone
+                calls , instead of rain , which I predicted yesterday , supposedly experienced
+                showers shooting stars !</s>
+            <s tr="">People seem to ask bonfires started a little earlier - 31 October will be up to
+                week , dear viewers , you have to wait a while longer !</s>
+            <s tr="">But tonight I promise you really wet night .</s>
+            <s tr="">"Mr. Dursley sat in the chair as adhering .</s>
+            <s tr="">Shooting stars all over Britain?</s>
+            <s tr="">Owls flying by day ?</s>
+            <s tr="">Mysterious people in cloaks all over town ?</s>
+            <s tr="">A whispering , whispering about The Potters ...</s>
+        </p>
+
+        <p>
+            <s tr="">Mrs. Dursley walked into the living room with two cups of tea .</s>
+            <s tr="">Nothing can be done . Will her have to say .</s>
+            <s tr="">Nervously cleared his throat .</s>
+            <s tr="">"Er - Petunia , dear - you have not heard the last time about his sister ?</s>
+        </p>
+
+        <p>
+            <s tr="">It happened exactly as expected , Mrs. Dursley was horrified and outraged threw
+                him view .</s>
+            <s tr="">No wonder, since usually the face that does not have any sister .</s>
+        </p>
+
+        <p>
+            <s tr="">" No, " she said .</s>
+            <s tr="">" Why ?</s>
+        </p>
+
+        <p>
+            <s tr="">"For the reports mentioned the very strange things , " Mr. Dursley mumbled
+                .</s>
+            <s tr="">" Owls falling ...</s>
+            <s tr="">stars ...</s>
+            <s tr="">and today the city has been a lot of funny -looking people ...</s>
+            <s tr="">" " So?</s>
+            <s tr="">" vybrechla Mrs. Dursley .</s>
+        </p>
+
+        <p>
+            <s tr="">" Well , I just ...</s>
+            <s tr="">that ...</s>
+            <s tr="">maybe it has something to do with ...</s>
+            <s tr="">but you know ...</s>
+            <s tr="">those of its cronies .</s>
+        </p>
+
+        <p>
+            <s tr="">Mrs. Dursley sipped her tea through pursed lips .</s>
+            <s tr="">Mr. Dursley wondered whether it is reasonable to mention her and that he heard
+                the name " Potter " .</s>
+            <s tr="">He decided to not . Instead, he asked , just to make conversation : "That their
+                son - in can be as Dudley's age , is not it?</s>
+        </p>
+
+        <p>
+            <s tr="">" I think so , " replied Mrs. Dursley very shortly .</s>
+        </p>
+
+        <p>
+            <s tr="">"What is his real name ?</s>
+            <s tr="">Howard or so .</s>
+        </p>
+
+        <p>
+            <s tr="">" Harry .</s>
+            <s tr="">Appalling dozen name , to be honest .</s>
+        </p>
+
+        <p>
+            <s tr="">"Exactly , " said Mr. Dursley , and his mood dropped below freezing .</s>
+            <s tr="">"Totally with you Agree .</s>
+        </p>
+
+        <p>
+            <s tr=""> They went upstairs to the bedroom and on to the topic in more returned.</s>
+            <s tr="">When Mrs Dursley in bathroom , Mr. Dursley crept to the bedroom window and
+                peered into the front yards . cat there still sat .</s>
+            <s tr="">Stared intently at the lower end of Privet Drive , as if waiting for something
+                . </s>
+        </p>
+
+        <p>
+            <s tr=""> Could he just frustrate ?</s>
+            <s tr="">You really can have it all to do with the Potters ?</s>
+            <s tr="">if yes ... if it transpires that their relatives - about to flip .</s>
+        </p>
+
+        <p>
+            <s tr="">The Dursleys lie down to sleep .</s>
+            <s tr="">Mrs. Dursley fell asleep immediately , Mr. Dursley lay with open eyes and over
+                again it assumes the whole head.</s>
+            <s tr="">Just before he fell asleep , have facilitated breathed because it occurred to
+                that, as well as the Potters have fingers, it does not mean that they must find
+                themselves close to either his or Madam Dursleys .</s>
+            <s tr="">Potters know very well what he and Petunia thought about such as they ...</s>
+            <s tr="">do not see why they would not , what is going on , it somehow hit - and yawned
+                turned on its side - they truly do not have to worry ...</s>
+        </p>
+
+        <p>
+            <s tr="">How much is just wrong.</s>
+        </p>
+
+        <p>
+            <s tr="">Mr. Dursley Although plunged into troubled sleep , but the cat did not appear
+                on the parapet smallest signs of fatigue .</s>
+            <s tr="">She sat motionless as a statue and deprived eyes on the distal end of Privet
+                roads .</s>
+            <s tr="">When the side street Buchli car door , not moving , not even budge when its
+                just above his head flew two owls .</s>
+            <s tr="">And when you finally changed position was almost midnight .</s>
+        </p>
+
+        <p>
+            <s tr=""> The corner , to which she looked , suddenly emerged a man, so suddenly and
+                silently , as if grown from the ground .</s>
+            <s tr="">Sible cat tail and eyes narrowed .</s>
+        </p>
+
+        <p>
+            <s tr="">The man on Privet Drive had never been seen .</s>
+            <s tr="">He was tall, thin and very old , judging by his silver hair and beard , which
+                were also back long to get them still could tuck in the waistband.</s>
+            <s tr="">He was wearing long robes , a purple mantle edge rubbed on the ground , and
+                boots with buckle high-heeled .</s>
+            <s tr="">For slides shaped glasses Crescent him glowed bright blue eyes , nose had such
+                a long and curved like him in previously broken at least twice .</s>
+            <s tr="">The man 's name was Albus Dumbledore .</s>
+        </p>
+
+        <p>
+            <s tr=""> Albus Dumbledore apparently knew that he came to the street , where everything
+                connected with it , starting with his name and ending with boots was unwelcome .</s>
+            <s tr="">They devoted themselves to wade in internal jacket pockets as if looking for
+                something .</s>
+            <s tr="">However, he noticed that he was being observed , because suddenly suddenly
+                looked up and looked at the cat that stared at him from the opposite end street
+                .</s>
+            <s tr="">That look he clearly amused . He grinned and muttered , "I might have guessed
+                .</s>
+        </p>
+
+        <p>
+            <s tr="">Finally, in the inner pocket found what he was looking .</s>
+            <s tr="">It looked like a silver cigarette lighter .</s>
+            <s tr="">He opened it and held ahead and stucco.</s>
+            <s tr="">The nearest lamp light shivered and went out .</s>
+            <s tr="">Stuka again - the next lamp flickered and plunged into darkness .</s>
+            <s tr="">twelve Stuka zhasínačom , only to flashing lights on across the street there
+                were only two small dots in distance - cats eyes that watched him .</s>
+            <s tr="">If at that time someone looked out the window , perhaps even Mrs. Dursley with
+                its X-ray view , nothing of what was going on down on the sidewalk , would not see
+                anything .</s>
+            <s tr="">Dumbledore hid zhasínač back into the housing , stepped towards the house
+                number 4 and then sit down on the parapet cat .</s>
+            <s tr="">Without it for even a looked after while he spoke .</s>
+        </p>
+
+        <p>
+            <s tr="">" I'm here you did not expect , Professor McGonagall .</s>
+        </p>
+
+        <p>
+            <s tr="">He turned with a smile to the striped cat , that has already been .</s>
+            <s tr="">He smiled very strict looking lady in glasses with a rectangular frame that had
+                the same shape and size as speckles , which had previously cat around the eyes .</s>
+            <s tr="">Although she was clad in a cloak , emerald .</s>
+            <s tr="">Black hair was off to a solid bun .</s>
+            <s tr="">She looked exasperated .</s>
+        </p>
+
+        <p>
+            <s tr=""> " How did you know it was me ?</s>
+        </p>
+
+        <p>
+            <s tr="">" My dear Professor , in my life seen a cat that would be sitting so stiffly
+                .</s>
+        </p>
+
+        <p>
+            <s tr="">" And you would have sat stiffly , if you are stuck on low walls all day , "
+                said Professor McGonagall .</s>
+            <s tr="">"You sit here all day ?</s>
+            <s tr="">When you celebrate ?</s>
+            <s tr="">On the way here I passed several dozen different parties and celebrations .</s>
+        </p>
+
+        <p>
+            <s tr="">Professor McGonagall sighed angrily .</s>
+        </p>
+
+        <p>
+            <s tr="">" Yes, yes , everyone is celebrating , you're right , " she said impatiently
+                .</s>
+            <s tr="">" You would think that be careful , but no - even the Muggles have noticed that
+                something was wrong .</s>
+            <s tr="">They talked about the news.</s>
+            <s tr="">" She nodded toward the Dursleys' dark living room window .</s>
+            <s tr="">" I heard that.</s>
+            <s tr="">Flocks of owls ...</s>
+            <s tr="">shooting stars ...</s>
+            <s tr="">not completely stupid . They could not get it yet noticing .</s>
+            <s tr="">Shooting stars in Kent - I'll give it to the neck , it was a Dedalus Diggle
+                .</s>
+            <s tr="">He never has no brain .</s>
+        </p>
+
+        <p>
+            <s tr="">" You can not be angry at them , " said Dumbledore pleasantly .</s>
+            <s tr="">" For the last eleven years had many reasons to celebrate .</s>
+        </p>
+
+        <p>
+            <s tr=""> " I know , " said Professor McGonagall irritably .</s>
+            <s tr="">" But that does not mean that they have completely lose his head .</s>
+            <s tr="">Behave carelessly explicitly , walk the streets in broad daylight , even no
+                muggle clothes , and go vats , gossip .</s>
+        </p>
+
+        <p>
+            <s tr="">She threw a sharp look at Dumbledore , hoping to say something , but did not
+                happen , so continued .</s>
+            <s tr="">" It would be really sad if we Muggles have revealed the very day when You-Know
+                - Who disappeared forever .</s>
+            <s tr="">Really , Dumbledore , you think you really after ? "</s>
+        </p>
+
+        <p>
+            <s tr="">" It seems so , " said Dumbledore .</s>
+            <s tr="">"We have to be really grateful for that .</s>
+            <s tr="">Would you like a lemon drops ?</s>
+        </p>
+
+        <p>
+            <s tr="">" What if I give you ?</s>
+        </p>
+
+        <p>
+            <s tr="">" Lemon drops.</s>
+            <s tr="">This muggle sweetness almost adore .</s>
+        </p>
+
+        <p>
+            <s tr="">"No thank you , " said Professor McGonagall curtly , as if to suggest that now
+                really not a good time for lemon drops .</s>
+            <s tr="">" As I mentioned before, if the You-Know - Who disappeared ...</s>
+        </p>
+
+        <p>
+            <s tr="">" My dear professor , such a sensible person like you would be calling him by
+                name .</s>
+            <s tr="">the whole nonsense with You-Know - Before - eleven years I try to convince
+                people that called him his proper name : Voldemort .</s>
+            <s tr="">" Professor McGonagall flinched , but Dumbledore , who just peel off from each
+                other , two lemon drops , pretend you did not notice .</s>
+            <s tr="">"If about it We will continue to speak of You-Know - Kom , it all gets messes .
+                I see no reason Why should we be afraid to pronounce Voldemort's name .</s>
+        </p>
+
+        <p>
+            <s tr="">"You're right , " said Professor McGonagall half indignant , half admiringly
+                .</s>
+            <s tr="">" But you're different.</s>
+            <s tr="">Everyone knows that you are the only one of whom was You-Know - Who , all right
+                then, Voldemort fears .</s>
+        </p>
+
+        <p>
+            <s tr=""> " You flatter me , " said Dumbledore happily .</s>
+            <s tr="">" Voldemort has the ability , as I have never I will not .</s>
+        </p>
+
+        <p>
+            <s tr="">" But just because you're too - as I - too noble to have their were used .</s>
+        </p>
+
+        <p>
+            <s tr=""> " Even the darkness .</s>
+            <s tr="">Last time I was so red, when Madam Pomfrey told me that she likes my new
+                earmuffs .</s>
+        </p>
+
+        <p>
+            <s tr="">Professor McGonagall cast a stern look at Dumbledore and said, " The owls are
+                nothing Compared with speeches, which are circulating .</s>
+            <s tr="">You know what they say ?</s>
+            <s tr="">Why go?</s>
+            <s tr="">What he said finally, stopped ?</s>
+        </p>
+
+        <p>
+            <s tr="">It seemed that Professor McGonagall came to the topic about which the Board
+                discussed and which was why celučičký day presedela the cold , hard parapet because
+                no woman and no cat would not be able to look at someone in such a piercing look ,
+                What right now she denied Dumbledore .</s>
+            <s tr="">It was clear that no matter who tells you he wants you wants not believe it
+                until Dumbledore confirmed that this is true .</s>
+            <s tr="">Dumbledore However selects the next lemon candy and did not answer .</s>
+        </p>
+
+        <p>
+            <s tr="">" They say , " she insisted , " that last night Voldemort appeared in Godric 's
+                Hollow . Apparently came for the Potters .</s>
+            <s tr="">It is said that Lily and James Potters are - are - that they are dead .</s>
+        </p>
+
+        <p>
+            <s tr="">Dumbledore nodded .</s>
+            <s tr="">Professor McGonagall gasped .</s>
+        </p>
+
+        <p>
+            <s tr="">" Lily and James ...</s>
+            <s tr="">I can not believe ...</s>
+            <s tr="">I did not want to believe it ...</s>
+            <s tr="">Oh , Albus ...</s>
+        </p>
+
+        <p>
+            <s tr="">Dumbledore reached out and patted her on the shoulder .</s>
+            <s tr="">" I know ...</s>
+            <s tr="">I know ...</s>
+            <s tr="">" he said dejectedly .</s>
+        </p>
+
+        <p>
+            <s tr="">Professor McGonagall trembling voice continued .</s>
+            <s tr="">" And that's not all .</s>
+            <s tr="">apparently wanted kill their son Harry .</s>
+            <s tr="">Well - failed him.</s>
+            <s tr="">Failed to kill small boy .</s>
+            <s tr="">No one knows why or how it happened , but said if he did not kill Harry Potter
+                , its power suddenly passed - and therefore disappeared .</s>
+        </p>
+
+        <p>
+            <s tr="">Dumbledore nodded sadly .</s>
+        </p>
+
+        <p>
+            <s tr="">" Is - is this true ?</s>
+            <s tr="">" She asked, voice trembling McGonagall .</s>
+            <s tr="">"After everything done ...</s>
+            <s tr="">so many people who could destroy him ...</s>
+            <s tr="">kill a little boy ?</s>
+            <s tr="">Unbelievable ...</s>
+            <s tr="">I stopped him just that ...</s>
+            <s tr="">but how is it possible that Harry survive ?</s>
+        </p>
+
+        <p>
+            <s tr="">" We are left nothing but a guess , " said Dumbledore .</s>
+            <s tr="">" It will probably never know. "</s>
+        </p>
+
+        <p>
+            <s tr="">Professor McGonagall pulled out a lace handkerchief and attach it alternately
+                once the one , once the second eye glasses below .</s>
+            <s tr="">Dumbledore took a deep sigh , picked out of pocket gold watch and looked at
+                them , they were very odd watch.</s>
+            <s tr="">Had twelve wise and no numbers along the edge of a small planet circulated
+                .</s>
+            <s tr="">It had to have some sense because Dumbledore them after a while, tucked back
+                into his pocket , saying, " Hagrid's late. from him you know I'm here , right?</s>
+        </p>
+
+        <p>
+            <s tr="">" Yes , " replied Professor McGonagall .</s>
+            <s tr="">" But obviously you do not divulge why you among all the cities chosen just
+                this ?</s>
+        </p>
+
+        <p>
+            <s tr="">" Because we want to deliver Harry to his aunt and uncle .</s>
+            <s tr="">They are his only relatives . "</s>
+        </p>
+
+        <p>
+            <s tr="">" I guess just - I guess you really want to say to those people who live here
+                ?</s>
+            <s tr="">" Horrified the Professor McGonagall , jumping to flat feet and pointing at
+                number 4 " Dumbledore - you can not !</s>
+            <s tr="">I've watched them all day .</s>
+            <s tr="">The world will not find two people that they would be we differed more than
+                these here .</s>
+            <s tr="">And that their son - I was a witness , as he went with his mother Up and down
+                this street all the time it kicked and yelled that he wants a treat .</s>
+            <s tr="">And here is live Harry Potter ?</s>
+        </p>
+
+        <p>
+            <s tr="">"Here it will be the best , " said Dumbledore .</s>
+            <s tr="">"When he's older , his uncle and his aunt explain everything .</s>
+            <s tr="">I wrote them a letter .</s>
+        </p>
+
+        <p>
+            <s tr="">" List?</s>
+            <s tr="">" Professor McGonagall did not believe my ears and horrified again sat on the
+                parapet .</s>
+            <s tr="">" And you think Dumbledore really think that all of this can be explained by
+                one letter ?</s>
+            <s tr="">These people will never understand him !</s>
+            <s tr="">Be famous - becomes a legend , nečudovala I would , if today went into history
+                as the Day of Harry Potter - Harry will be write books - his name will know every
+                little child in our world !</s>
+        </p>
+
+        <p>
+            <s tr="">"Exactly , " Dumbledore nodded and looked very seriously over the semi-lunar
+                glasses his glasses .</s>
+            <s tr="">" That would muddled head every guy .</s>
+            <s tr="">He became famous before able to walk and talk !</s>
+            <s tr="">He became famous for something you will not even remember !</s>
+            <s tr="">Note that while it understands him will really better when it grow somewhere
+                past .</s>
+        </p>
+
+        <p>
+            <s tr="">Professor McGonagall opened her mouth , but then she changed her mind , and she
+                swallowed idle After a moment she said, " Hey - hey , you're right , of course .</s>
+            <s tr="">But how is this kid here gets, Dumbledore ?</s>
+            <s tr="">" Suddenly she looked at his jacket , as if she thought that it conceals below
+                it .</s>
+        </p>
+
+        <p>
+            <s tr="">" Hagrid bring it .</s>
+        </p>
+
+        <p>
+            <s tr="">" You think it - wise - to entrust Hagrid's such an important thing ?</s>
+        </p>
+
+        <p>
+            <s tr="">" Hagrid would I have given my life for , " said Dumbledore .</s>
+        </p>
+
+        <p>
+            <s tr="">" I'm not saying no heart in the right place , " said Professor McGonagall with
+                grudgingly , " but you must admit that it is not very reliable.</s>
+            <s tr="">Is known about him , that he sometimes a little - what was it ?</s>
+        </p>
+
+        <p>
+            <s tr="">The silence around them cross the rumbling away .</s>
+            <s tr="">Gradually got louder and they looked alternately at lower and upper end of the
+                street when the light appears ; rumble erupted in crashes and they looked up to the
+                sky - the air from the top of a huge motorcycle fell and landed straight on the road
+                before them .</s>
+        </p>
+
+        <p>
+            <s tr="">This bike was huge , but it still was nothing compared to the guy who sat on it
+                .</s>
+            <s tr="">Was twice as tall as a normal man and at least five times as wide .</s>
+            <s tr="">In short , the too big to be real , and he really wildly - most of his face
+                mask tufts of long messy black hair and beard , had as palm tops of garbage baskets
+                and his legs looked in leather bagančiach as dolphin pups.</s>
+            <s tr="">The gigantic He was holding a bundle wrapped in a blanket .</s>
+        </p>
+
+        <p>
+            <s tr="">" Hagrid , " Dumbledore spoke to him , his voice was felt relief.</s>
+            <s tr="">"Finally you're here. Where you got hold of that bike ?</s>
+        </p>
+
+        <p>
+            <s tr="">" I Žičal it , Professor Dumbledore ," said branch and carefully climbed off
+                the bike .</s>
+            <s tr="">" From Young Sirius Black .</s>
+            <s tr="">Here, sir .</s>
+        </p>
+
+        <p>
+            <s tr="">" You should not have any problems?</s>
+        </p>
+
+        <p>
+            <s tr="">" No, sir - house was almost to dust, but I got him out before there swarmed
+                Muggles . When we Ficalho of Bristol , fell asleep .</s>
+        </p>
+
+        <p>
+            <s tr="">Dumbledore and Professor McGonagall leaned over the bundle in a blanket .</s>
+            <s tr="">Saw the boy , which rigidly asleep.</s>
+            <s tr="">At the head under the black stic saw strangely curved scar flash.</s>
+        </p>
+
+        <p>
+            <s tr="">" That's where he ... ?</s>
+            <s tr="">" Whispered Professor McGonagall .</s>
+        </p>
+
+        <p>
+            <s tr="">" Yes , " replied Dumbledore .</s>
+            <s tr="">" That he has a scar forever .</s>
+        </p>
+
+        <p>
+            <s tr="">" Could not we do something about it , Dumbledore ?</s>
+        </p>
+
+        <p>
+            <s tr="">" Even if I could do that.</s>
+            <s tr="">Scars can come in handy .</s>
+            <s tr="">I also got one above the left knee , which looks exactly like a map of the
+                London Underground .</s>
+            <s tr="">Well - give it to me , Hagrid - let's have the first row.</s>
+        </p>
+
+        <p>
+            <s tr="">Dumbledore took Harry in his arms and headed for the house Dursleys .</s>
+        </p>
+
+        <p>
+            <s tr="">" Could - could I say goodbye to him , sir ?</s>
+            <s tr="">" Asked Hagrid .</s>
+            <s tr="">He bent his enormous hairy head over Harry and he delivered a prickly -
+                tingling kiss .</s>
+            <s tr="">Then out of the blue from himself nothing gave grunts , like the wail of a
+                wounded dog.</s>
+        </p>
+
+        <p>
+            <s tr="">" Pssst !</s>
+            <s tr="">" Hissed Professor McGonagall , " wake Muggles !</s>
+        </p>
+
+        <p>
+            <s tr="">" Pp - sorry , " sobbed Hagrid , pulling a huge , spotted handkerchief and
+                burying it in face .</s>
+            <s tr="">" I can not stand it , Lily and James are dead - and úbožiačik Harry must live
+                with Muggles ...</s>
+        </p>
+
+        <p>
+            <s tr="">" Yes, yes , it's very sad , but you need to recover Hagrid because we giveaway
+                " whispered Professor McGonagall and Hagrid timidly stroked yet at hand .</s>
+            <s tr="">Dumbledore Meanwhile exceeded the low parapet garden and walked to the front
+                door .</s>
+            <s tr="">He put Harry caution on stairs , selected from leaf sheath , Harry slipped it
+                under the covers and returned .</s>
+            <s tr="">whole minute there these three stood staring at the small nodule .</s>
+            <s tr="">Hagrid's shoulders shook , Professor McGonagall ODUS žmurkala a glimmer in
+                Dumbledore's eyes that they ever shone so brightly , is somewhere along .</s>
+        </p>
+
+        <p>
+            <s tr="">"Well , " Dumbledore finally spoke , " and it is .</s>
+            <s tr="">Already here we have to do .</s>
+            <s tr="">We can add to others and celebrate .</s>
+        </p>
+
+        <p>
+            <s tr="">" Well , " Hagrid muttered softly , " I'm going to return the bike Sirius Black
+                .</s>
+            <s tr="">Brú night , Mrs.</s>
+            <s tr="">Professor McGonagall - Professor Dumbledore .</s>
+        </p>
+
+        <p>
+            <s tr="">Hagrid wiped streams of tears into the sleeve , jumped on the bike and kick the
+                engine . S deafening bang was raised in height and disappeared in the dark . </s>
+        </p>
+
+        <p>
+            <s tr="">" Goodbye, Professor McGonagall , " said Dumbledore pokyvujúc head.</s>
+            <s tr="">teacher McGonagall , rather than responding to zatrúbila handkerchiefs .</s>
+        </p>
+
+        <p>
+            <s tr="">Dumbledore turned around and walked down the street .</s>
+            <s tr="">At the corner he stopped and picked zhasínač .</s>
+            <s tr="">once Stuka and twelve balls of light flew back to their street lamps , Privet
+                Drive reflection was flooded with orange light and he saw a cat like disappearing
+                around the corner at the opposite end of the street .</s>
+            <s tr="">One last look towards the bundle in a blanket on the steps before the number
+                4</s>
+        </p>
+
+        <p>
+            <s tr="">" Good luck , Harry , " he murmured .</s>
+            <s tr="">He turned heel , rustled jacket and not him .</s>
+        </p>
+
+        <p>
+            <s tr="">Breeze rippled leaves neatly spliced hedges on Privet Drive , which lay
+                stealthily and orderly under atramentovočiernou sky and was the last place from you
+                would expect that there are mysterious things happen .</s>
+            <s tr="">Harry Potter in a blanket pomrvil , but did not wake up.</s>
+            <s tr="">Its small handle gripped sheet and further he slept , unaware that it is
+                exceptional , it is famous that in a few hours it wakes Mrs. Dursley's scream ,
+                which opens the door, delivering the out empty bottles of milk , the next few weeks
+                it will be his cousin Dudley constantly jostle and tweaking ...</s>
+            <s tr="">could not have imagined that Right at that moment throughout the country
+                secretly meet people lift their bowls and silent voice whispering : " To Harry
+                Potter - the boy who lived !</s>
+        </p>
+    </chapter>
+</txt>
