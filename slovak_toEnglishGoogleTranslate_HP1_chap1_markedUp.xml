@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="officalToEnglish_googleTranslate.rnc" type="application/relax-ng-compact-syntax"?>
 <txt>
+
     <chapter>
 
         <p>
             <s tr="1">Mr. and Mrs. Dursley of number four Privet Drive <ins>is</ins>
-                <dif id="1" pos="mst" type="ten">proud</dif> of <dif id="2" pos="pro" type="num"
+                <dif id="1" pos="adj" type="ten">proud</dif> of <dif id="2" pos="pro" type="num"
                 />himself claimed <dif id="3" pos="v" type="ten">to be</dif> fully normal ,
                     <ins>but</ins> thank you very much .</s>
-            <s tr="o"><dif id="24" pos="v" type="tense">Are</dif>
-                <ins>at</ins> last from niekto who <dif id="4" pos="v" type="tense">expected</dif>
+            <s tr="0"><dif id="24" pos="v" type="ten">Are</dif>
+                <ins>at</ins> last from niekto who <dif id="4" pos="v" type="ten">expected</dif>
                 <ins>to be</ins>
                 <dif id="5" pos="v" type="ten">tangled</dif> in <dif id="6" pos="n" type="mst"
                     >voľačoho</dif>
@@ -59,13 +60,13 @@
                     <ins>longer</ins> .</s>
             <s tr="1">Dursleys <dif id="36" pos="v" type="mst">striasalo</dif> just thinking about
                 what the neighbors would say if the Potters appeared in their street .</s>
-            <s tr="0">The Dursleys knew that the Potters <dif id="37" pos="v" type="tense"
+            <s tr="0">The Dursleys knew that the Potters <dif id="37" pos="v" type="ten"
                     >have</dif> a young son , However, <dif id="38" pos="pro" type="mst">it</dif>
                 <ins>has</ins>
                 <ins>never</ins>
                 <dif id="39" pos="v" type="ten">seen</dif>
                 <ins>before</ins>. </s>
-            <s tr="">This <dif id="40" pos="n" type="mst">guy</dif> was another reason why the
+            <s tr="1">This <dif id="40" pos="n" type="mst">guy</dif> was another reason why the
                 Potters did not desire encounter did not want Dudley with <ins>the</ins>
                 <dif id="41" pos="pro" type="mst">kid</dif>
                 <ins>they</ins>
@@ -98,7 +99,7 @@
             <s tr="0">About half past eight , Mr Dursley grabbed his briefcase , kissed on the cheek
                 Mrs. Dursley attempted the same thing <dif id="54" pos="pp" type="mst">in</dif>
                 Dudley , but missed , because Dudley had just <dif id="55" pos="v" type="mst"
-                    >seized</dif> a rage and began hitting the wall <dif id="56" pos="n" type="case"
+                    >seized</dif> a rage and began hitting the wall <dif id="56" pos="n" type="cas"
                     >cereal</dif> .</s>
             <s tr="1">" Our little rascal , " laughed Mr. Dursley as he left .</s>
             <s tr="1">He got into the car , and slowly backed away from <ins>the</ins> house number
@@ -148,10 +149,10 @@
             <s tr="1">but <dif id="84" pos="pp" type="mst">when</dif>
                 <ins>going</ins>
                 <dif id="85" pos="pp" type="mst">into</dif>
-                <dif id="86" pos="n" mst="cas">town</dif> , <dif id="87" pos="n" mst="cas"
+                <dif id="86" pos="n" type="cas">town</dif> , <dif id="87" pos="n" type="cas"
                     >drills</dif>
-                <dif id="88" pos="v" mst="ten">drove</dif> out of his head again <dif id="89"
-                    pos="n" mst="cas">something</dif> else .</s>
+                <dif id="88" pos="v" type="ten">drove</dif> out of his head again <dif id="89"
+                    pos="n" type="cas">something</dif> else .</s>
             <s tr="0">As he <dif id="89" pos="v" type="mst">stood</dif> in the usual morning traffic
                 jam , he could not help but notice that the <dif id="90" pos="n" type="cas"
                     >street</dif> walking strangely <dif id="91" pos="n" type="mst">amount</dif>
@@ -162,7 +163,7 @@
                 today's young go !</s>
             <s tr="0">It occurred to him that this <ins>again</ins>
                 <dif id="96" pos="v" type="ten"> is</dif>
-                <in>not</in>
+                <ins>not</ins>
                 <dif id="97" pos="adj" type="mst">dajaký</dif>
                 <ins>scored</ins> a fashion <dif id="98" pos="n" type="mst">hit</dif> .</s>
             <s tr="1">Drummed <dif id="99" pos="pro" type="gen">her</dif> fingers over the steering
@@ -227,7 +228,7 @@
             <s tr="1">He walked past them , cast an evil eye on them .</s>
             <s tr="1">He did not know why, but it <dif id="138" pos="v" type="mst">zneisťovali
                 </dif>.</s>
-            <s tr="">When <dif id="139" pos="pro" type="num">they</dif> returned back along with a
+            <s tr="0">When <dif id="139" pos="pro" type="num">they</dif> returned back along with a
                 large paper cone bag , he heard a snippet of their conversation .</s>
         </p>
 
