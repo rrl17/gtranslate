@@ -8,4 +8,4 @@ tr = attribute tr {xsd:boolean}
 dif = element dif {id, pos, type, text}
 id = attribute id {xsd:int}
 pos = attribute pos {'det'|'n'|'v'|'adj'|'adv'|'pp'|'pro'|'conj'|'int'}
-type = attribute type {'ten'|'cas'|'num'|'gen'|'mst'|'moo'|'asp'|'per'|'mis'|'del'|'pos'}
+type = attribute type {'ten'|'cas'|'num'|'gen'|'mst'|'moo'|'asp'|'per'|'del'|'pos'|'ins'}

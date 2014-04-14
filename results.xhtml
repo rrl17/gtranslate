@@ -1,0 +1,1011 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0049)http://www.obdurodon.org/~jrp89/centeringtest.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Characterizing Linguistic Divergences in Machine Translation</title>
+        <link rel="stylesheet" type="text/css" href="general.css" />
+        <link rel="stylesheet" type="text/css" href="home2.css" />
+        <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+
+        <style type="text/css">
+            div.para1{
+                text-align:left;
+                overflow:auto;
+                margin-right:auto;
+                margin-left:auto;
+                margin-top:5px;
+                margin-bottom:auto;
+            }
+            div.para2{
+                text-align:right;
+                overflow:auto;
+                margin-right:auto;
+                margin-left:auto;
+                margin-top:5x;
+                margin-bottom:auto;
+            }
+            
+            
+            div.subheadmain{
+                margin-left:5px;
+                margin-right:5px;
+                margin-top:5px;
+                margin-bottom:5px;
+                width:auto;
+                height:auto;
+                font-size:200%;
+                padding-top:0px;
+                padding-bottom:0px;
+                color:#5a5a1d;
+                text-align:center;
+                font-family:'starry_nightregular'
+            
+            }
+            div.subhead1{
+                margin-left:5px;
+                margin-right:5px;
+                margin-top:5px;
+                margin-bottom:5px;
+                width:auto;
+                height:auto;
+                font-size:150%;
+                padding-top:0px;
+                padding-bottom:0px;
+                color:#5a5a1d;
+                text-align:left;
+                font-family:'starry_nightregular'
+            
+            }
+            div.subhead2{
+                margin-left:5px;
+                margin-right:5px;
+                margin-top:5px;
+                margin-bottom:5px;
+                width:auto;
+                height:auto;
+                font-size:150%;
+                padding-top:0px;
+                padding-bottom:0px;
+                color:#5a5a1d;
+                text-align:right;
+                font-family:'starry_nightregular'
+            
+            }</style>
+    </head>
+    <body>
+        <div class="crumbTrail"><a href="http://www.obdurodon.org/">&lt;oo&gt;</a> &rarr; <a
+                href="http://dh.obdurodon.org/">&lt;dh&gt;</a> &rarr; <a
+                href="http://translate.obdurodon.org/">&lt;translate&gt;</a> Characterizing
+            Linguistic Divergences in Machine Translation</div>
+        <div class="img">
+            <img src="images/resultsimg.jpg" alt="Dumbledore's Dark Secrets Revealed!" /><br />In on a
+            government cover up by the corrupt Ministry of Magic, the wizarding press falsely
+            attacks Albus Dumbledore!</div>
+        <h1>Results</h1>
+        <h2>Error ratios, graphs, and tables</h2>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html"><span>Home</span></a></li>
+                <li class="drop"><a><i>Lumos!</i></a>
+                    <ul>
+                        <li><a href="goals.html"><span>Goals</span></a></li>
+                        <li><a href="dig.html"><span>&lt;dh&gt;</span></a></li>
+                        <li><a href="auth.html"><span>Authors</span></a></li>
+                        <li><a href="blog.html"><span>Blog</span></a></li>
+                    </ul>
+                </li>
+                <li class="drop"><a>Background</a>
+                    <ul>
+                        <li><a href="ling.html"><span>Linguistics</span></a></li>
+                        <li><a href="googletrans.html"><span>Google</span></a></li>
+                        <li><a href="indoeuropean.html"><span>Languages</span></a></li>
+                    </ul></li>
+                <li class="drop"><a>Research</a>
+                    <ul>
+                        <li><a href="hyp.html"><span>Hypothesis</span></a></li>
+                        <li><a href="meth.html"><span>Method</span></a></li>
+                        <li><a href="results.html"><span>Results</span></a></li>
+                        <li><a href="disc.html"><span>Discussion</span></a></li>
+                    </ul></li>
+                <li class="drop"><a>Documents</a>
+                    <ul>
+                        <li><a href="germanoutput.html"><span>German</span></a></li>
+                        <li><a href="frenchoutput.html"><span>French</span></a></li>
+                        <li><a href="slovakoutput.html"><span>Slovak</span></a></li>
+                        <li><a href="raw.html"><span>Download</span></a></li>
+                    </ul></li>
+                <li class="drop"><a>All was well.</a>
+                    <ul>
+                        <li><a href="future.html"><span>Future</span></a></li>
+                        <li><a href="thanks.html"><span>Thanks</span></a></li>
+                        <li><a href="resources.html"><span> Resources</span></a></li>
+                        <li><a href="bib.html"><span>References</span></a></li>
+                    </ul></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="para1"> 
+                <svg xmlns="http=//www.w3.org/2000/svg">
+                    <g transform="translate(30, 180)">
+                        <line x1="25"
+                            x2="25"
+                            y1="0"
+                            y2="-100"
+                            stroke="black"
+                            stroke-width="2"/>
+                        <text x="0" y="-100" stroke="black">1000</text>
+                        <text x="0" y="-50" stroke="black">500</text>
+                        <text x="0" y="-10" stroke="black">100</text>
+                        <line x1="25"
+                            x2="100"
+                            y1="0"
+                            y2="0"
+                            stroke="black"
+                            stroke-width="2"/>
+                        <rect x="80"
+                            y="-31.3"
+                            width="20"
+                            height="31.3"
+                            stroke="black"
+                            fill="yellow"/>
+                        <rect x="55"
+                            y="-90.4"
+                            width="20"
+                            height="90.4"
+                            stroke="black"
+                            fill="red"/>
+                        <rect x="30"
+                            y="-9.7"
+                            width="20"
+                            height="9.7"
+                            stroke="black"
+                            fill="blue"/>
+                        <text x="81" y="12" stroke="black">Ge</text>
+                        <text x="59" y="12" stroke="black">Sl</text>
+                        <text x="33" y="12" stroke="black">Fr</text>
+                        <text x="10" y="-120" stroke="black">Errors</text>
+                        <text x="60" y="25" stroke="black" text-anchor="middle">Version</text>
+                    </g>
+                    <g transform="translate(30, 180)">
+                        <line x1="320"
+                            x2="320"
+                            y1="0"
+                            y2="-100"
+                            stroke="black"
+                            stroke-width="2"/>
+                        <text x="302" y="-100" stroke="black">50</text>
+                        <text x="302" y="-50" stroke="black">25</text>
+                        <text x="302" y="-20" stroke="black">10</text>
+                        <line x1="320"
+                            x2="400"
+                            y1="0"
+                            y2="0"
+                            stroke="black"
+                            stroke-width="2"/>
+                        <rect x="375"
+                            y="-23.3243967828418231"
+                            width="20"
+                            height="23.3243967828418231"
+                            stroke="black"
+                            fill="yellow"/>
+                        <rect x="350"
+                            y="-65.0289017341040462"
+                            width="20"
+                            height="65.0289017341040462"
+                            stroke="black"
+                            fill="red"/>
+                        <rect x="325"
+                            y="-17.6678445229681979"
+                            width="20"
+                            height="17.6678445229681979"
+                            stroke="black"
+                            fill="blue"/>
+                        <text x="376" y="12" stroke="black">Ge</text>
+                        <text x="354" y="12" stroke="black">Sl</text>
+                        <text x="328" y="12" stroke="black">Fr</text>
+                        <text x="285" y="-120" stroke="black">Sucky Sentences %</text>
+                        <text x="355" y="25" stroke="black" text-anchor="middle">Version</text>
+                    </g>
+                    <g transform="translate(30, 600)">
+                        <line x1="10"
+                            x2="10"
+                            y1="-0"
+                            y2="-400"
+                            stroke="black"
+                            stroke-width="1"/>
+                        <line x1="10"
+                            x2="500"
+                            y1="0"
+                            y2="0"
+                            stroke="black"
+                            stroke-width="1"/>
+                        <rect x="40"
+                            y="-18"
+                            width="15"
+                            height="18"
+                            stroke="black"
+                            fill="gold"/>
+                        <rect x="25"
+                            y="-57"
+                            width="15"
+                            height="57"
+                            stroke="black"
+                            fill="red"/>
+                        <rect x="10"
+                            y="-7.5"
+                            width="15"
+                            height="7.5"
+                            stroke="black"
+                            fill="blue"/>
+                        <text x="32" y="15" stroke="black" text-anchor="middle">adj</text>
+                        <text x="250" y="-380" stroke="black" text-anchor="middle">Errors by Part of Speech</text>
+                        <text x="250" y="30" stroke="black" text-anchor="middle">Part of Speech</text>
+                        <text x="0" y="-75" stroke="black">50</text>
+                        <text x="0" y="-150" stroke="black">100</text>
+                        <text x="0" y="-225" stroke="black">150</text>
+                        <text x="0" y="-300" stroke="black">200</text>
+                        <text x="0" y="-375" stroke="black">250</text>
+                        <rect x="95"
+                            y="-45"
+                            width="15"
+                            height="45"
+                            stroke="black"
+                            fill="gold"/>
+                        <rect x="80"
+                            y="-84"
+                            width="15"
+                            height="84"
+                            stroke="black"
+                            fill="red"/>
+                        <rect x="65"
+                            y="-1.5"
+                            width="15"
+                            height="1.5"
+                            stroke="black"
+                            fill="blue"/>
+                        <text x="87" y="15" stroke="black" text-anchor="middle">adv</text>
+                        <text x="250" y="-380" stroke="black" text-anchor="middle">Errors by Part of Speech</text>
+                        <text x="250" y="30" stroke="black" text-anchor="middle">Part of Speech</text>
+                        <text x="0" y="-75" stroke="black">50</text>
+                        <text x="0" y="-150" stroke="black">100</text>
+                        <text x="0" y="-225" stroke="black">150</text>
+                        <text x="0" y="-300" stroke="black">200</text>
+                        <text x="0" y="-375" stroke="black">250</text>
+                        <rect x="150"
+                            y="-13.5"
+                            width="15"
+                            height="13.5"
+                            stroke="black"
+                            fill="gold"/>
+                        <rect x="135"
+                            y="-70.5"
+                            width="15"
+                            height="70.5"
+                            stroke="black"
+                            fill="red"/>
+                        <rect x="120"
+                            y="-4.5"
+                            width="15"
+                            height="4.5"
+                            stroke="black"
+                            fill="blue"/>
+                        <text x="142" y="15" stroke="black" text-anchor="middle">conj</text>
+                        <text x="250" y="-380" stroke="black" text-anchor="middle">Errors by Part of Speech</text>
+                        <text x="250" y="30" stroke="black" text-anchor="middle">Part of Speech</text>
+                        <text x="0" y="-75" stroke="black">50</text>
+                        <text x="0" y="-150" stroke="black">100</text>
+                        <text x="0" y="-225" stroke="black">150</text>
+                        <text x="0" y="-300" stroke="black">200</text>
+                        <text x="0" y="-375" stroke="black">250</text>
+                        <rect x="205"
+                            y="-24"
+                            width="15"
+                            height="24"
+                            stroke="black"
+                            fill="gold"/>
+                        <rect x="190"
+                            y="-108"
+                            width="15"
+                            height="108"
+                            stroke="black"
+                            fill="red"/>
+                        <rect x="175"
+                            y="-30"
+                            width="15"
+                            height="30"
+                            stroke="black"
+                            fill="blue"/>
+                        <text x="197" y="15" stroke="black" text-anchor="middle">det</text>
+                        <text x="250" y="-380" stroke="black" text-anchor="middle">Errors by Part of Speech</text>
+                        <text x="250" y="30" stroke="black" text-anchor="middle">Part of Speech</text>
+                        <text x="0" y="-75" stroke="black">50</text>
+                        <text x="0" y="-150" stroke="black">100</text>
+                        <text x="0" y="-225" stroke="black">150</text>
+                        <text x="0" y="-300" stroke="black">200</text>
+                        <text x="0" y="-375" stroke="black">250</text>
+                        <rect x="260"
+                            y="-9"
+                            width="15"
+                            height="9"
+                            stroke="black"
+                            fill="gold"/>
+                        <rect x="245"
+                            y="-0"
+                            width="15"
+                            height="0"
+                            stroke="black"
+                            fill="red"/>
+                        <rect x="230"
+                            y="-0"
+                            width="15"
+                            height="0"
+                            stroke="black"
+                            fill="blue"/>
+                        <text x="252" y="15" stroke="black" text-anchor="middle">int</text>
+                        <text x="250" y="-380" stroke="black" text-anchor="middle">Errors by Part of Speech</text>
+                        <text x="250" y="30" stroke="black" text-anchor="middle">Part of Speech</text>
+                        <text x="0" y="-75" stroke="black">50</text>
+                        <text x="0" y="-150" stroke="black">100</text>
+                        <text x="0" y="-225" stroke="black">150</text>
+                        <text x="0" y="-300" stroke="black">200</text>
+                        <text x="0" y="-375" stroke="black">250</text>
+                        <rect x="315"
+                            y="-61.5"
+                            width="15"
+                            height="61.5"
+                            stroke="black"
+                            fill="gold"/>
+                        <rect x="300"
+                            y="-148.5"
+                            width="15"
+                            height="148.5"
+                            stroke="black"
+                            fill="red"/>
+                        <rect x="285"
+                            y="-61.5"
+                            width="15"
+                            height="61.5"
+                            stroke="black"
+                            fill="blue"/>
+                        <text x="307" y="15" stroke="black" text-anchor="middle">n</text>
+                        <text x="250" y="-380" stroke="black" text-anchor="middle">Errors by Part of Speech</text>
+                        <text x="250" y="30" stroke="black" text-anchor="middle">Part of Speech</text>
+                        <text x="0" y="-75" stroke="black">50</text>
+                        <text x="0" y="-150" stroke="black">100</text>
+                        <text x="0" y="-225" stroke="black">150</text>
+                        <text x="0" y="-300" stroke="black">200</text>
+                        <text x="0" y="-375" stroke="black">250</text>
+                        <rect x="370"
+                            y="-78"
+                            width="15"
+                            height="78"
+                            stroke="black"
+                            fill="gold"/>
+                        <rect x="355"
+                            y="-120"
+                            width="15"
+                            height="120"
+                            stroke="black"
+                            fill="red"/>
+                        <rect x="340"
+                            y="-21"
+                            width="15"
+                            height="21"
+                            stroke="black"
+                            fill="blue"/>
+                        <text x="362" y="15" stroke="black" text-anchor="middle">pp</text>
+                        <text x="250" y="-380" stroke="black" text-anchor="middle">Errors by Part of Speech</text>
+                        <text x="250" y="30" stroke="black" text-anchor="middle">Part of Speech</text>
+                        <text x="0" y="-75" stroke="black">50</text>
+                        <text x="0" y="-150" stroke="black">100</text>
+                        <text x="0" y="-225" stroke="black">150</text>
+                        <text x="0" y="-300" stroke="black">200</text>
+                        <text x="0" y="-375" stroke="black">250</text>
+                        <rect x="425"
+                            y="-90"
+                            width="15"
+                            height="90"
+                            stroke="black"
+                            fill="gold"/>
+                        <rect x="410"
+                            y="-346.5"
+                            width="15"
+                            height="346.5"
+                            stroke="black"
+                            fill="red"/>
+                        <rect x="395"
+                            y="-21"
+                            width="15"
+                            height="21"
+                            stroke="black"
+                            fill="blue"/>
+                        <text x="417" y="15" stroke="black" text-anchor="middle">pro</text>
+                        <text x="250" y="-380" stroke="black" text-anchor="middle">Errors by Part of Speech</text>
+                        <text x="250" y="30" stroke="black" text-anchor="middle">Part of Speech</text>
+                        <text x="0" y="-75" stroke="black">50</text>
+                        <text x="0" y="-150" stroke="black">100</text>
+                        <text x="0" y="-225" stroke="black">150</text>
+                        <text x="0" y="-300" stroke="black">200</text>
+                        <text x="0" y="-375" stroke="black">250</text>
+                        <rect x="480"
+                            y="-129"
+                            width="15"
+                            height="129"
+                            stroke="black"
+                            fill="gold"/>
+                        <rect x="465"
+                            y="-421.5"
+                            width="15"
+                            height="421.5"
+                            stroke="black"
+                            fill="red"/>
+                        <rect x="450"
+                            y="-49.5"
+                            width="15"
+                            height="49.5"
+                            stroke="black"
+                            fill="blue"/>
+                        <text x="472" y="15" stroke="black" text-anchor="middle">v</text>
+                        <text x="250" y="-380" stroke="black" text-anchor="middle">Errors by Part of Speech</text>
+                        <text x="250" y="30" stroke="black" text-anchor="middle">Part of Speech</text>
+                        <text x="0" y="-75" stroke="black">50</text>
+                        <text x="0" y="-150" stroke="black">100</text>
+                        <text x="0" y="-225" stroke="black">150</text>
+                        <text x="0" y="-300" stroke="black">200</text>
+                        <text x="0" y="-375" stroke="black">250</text>
+                    </g>
+                </svg></div>
+            <div class="para1">
+                <svg xmlns="http=//www.w3.org/2000/svg">
+   <g transform="translate(30, 620)">
+      <line x1="10"
+            x2="10"
+            y1="0"
+            y2="-600"
+            stroke="black"
+            stroke-width="1"/>
+      <line x1="10"
+            x2="556"
+            y1="0"
+            y2="0"
+            stroke="black"
+            stroke-width="1"/>
+      <rect x="40"
+            y="-15"
+            width="15"
+            height="15"
+            stroke="black"
+            fill="gold"/>
+      <rect x="25"
+            y="-100.5"
+            width="15"
+            height="100.5"
+            stroke="black"
+            fill="red"/>
+      <rect x="10"
+            y="-3"
+            width="15"
+            height="3"
+            stroke="black"
+            fill="blue"/>
+      <text x="32" y="15" stroke="black" text-anchor="middle">asp</text>
+      <text x="200" y="-600" stroke="black" text-anchor="middle">Errors by Type</text>
+      <rect x="438"
+            y="-410"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="gold"/>
+      <rect x="438"
+            y="-430"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="red"/>
+      <rect x="438"
+            y="-450"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="blue"/>
+      <text x="450" y="-400" stroke="black">German</text>
+      <text x="450" y="-420" stroke="black">Slovak</text>
+      <text x="450" y="-440" stroke="black">French</text>
+      <text x="0" y="-75" stroke="black">50</text>
+      <text x="0" y="-150" stroke="black">100</text>
+      <text x="0" y="-225" stroke="black">150</text>
+      <text x="0" y="-300" stroke="black">200</text>
+      <text x="0" y="-375" stroke="black">250</text>
+      <text x="0" y="-450" stroke="black">300</text>
+      <text x="0" y="-525" stroke="black">350</text>
+      <rect x="90"
+            y="-3"
+            width="15"
+            height="3"
+            stroke="black"
+            fill="gold"/>
+      <rect x="75"
+            y="-51"
+            width="15"
+            height="51"
+            stroke="black"
+            fill="red"/>
+      <rect x="60"
+            y="-0"
+            width="15"
+            height="0"
+            stroke="black"
+            fill="blue"/>
+      <text x="82" y="15" stroke="black" text-anchor="middle">cas</text>
+      <text x="200" y="-600" stroke="black" text-anchor="middle">Errors by Type</text>
+      <rect x="438"
+            y="-410"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="gold"/>
+      <rect x="438"
+            y="-430"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="red"/>
+      <rect x="438"
+            y="-450"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="blue"/>
+      <text x="450" y="-400" stroke="black">German</text>
+      <text x="450" y="-420" stroke="black">Slovak</text>
+      <text x="450" y="-440" stroke="black">French</text>
+      <text x="0" y="-75" stroke="black">50</text>
+      <text x="0" y="-150" stroke="black">100</text>
+      <text x="0" y="-225" stroke="black">150</text>
+      <text x="0" y="-300" stroke="black">200</text>
+      <text x="0" y="-375" stroke="black">250</text>
+      <text x="0" y="-450" stroke="black">300</text>
+      <text x="0" y="-525" stroke="black">350</text>
+      <rect x="140"
+            y="-55.5"
+            width="15"
+            height="55.5"
+            stroke="black"
+            fill="gold"/>
+      <rect x="125"
+            y="-532.5"
+            width="15"
+            height="532.5"
+            stroke="black"
+            fill="red"/>
+      <rect x="110"
+            y="-51"
+            width="15"
+            height="51"
+            stroke="black"
+            fill="blue"/>
+      <text x="132" y="15" stroke="black" text-anchor="middle">del</text>
+      <text x="200" y="-600" stroke="black" text-anchor="middle">Errors by Type</text>
+      <rect x="438"
+            y="-410"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="gold"/>
+      <rect x="438"
+            y="-430"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="red"/>
+      <rect x="438"
+            y="-450"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="blue"/>
+      <text x="450" y="-400" stroke="black">German</text>
+      <text x="450" y="-420" stroke="black">Slovak</text>
+      <text x="450" y="-440" stroke="black">French</text>
+      <text x="0" y="-75" stroke="black">50</text>
+      <text x="0" y="-150" stroke="black">100</text>
+      <text x="0" y="-225" stroke="black">150</text>
+      <text x="0" y="-300" stroke="black">200</text>
+      <text x="0" y="-375" stroke="black">250</text>
+      <text x="0" y="-450" stroke="black">300</text>
+      <text x="0" y="-525" stroke="black">350</text>
+      <rect x="190"
+            y="-3"
+            width="15"
+            height="3"
+            stroke="black"
+            fill="gold"/>
+      <rect x="175"
+            y="-3"
+            width="15"
+            height="3"
+            stroke="black"
+            fill="red"/>
+      <rect x="160"
+            y="-42"
+            width="15"
+            height="42"
+            stroke="black"
+            fill="blue"/>
+      <text x="182" y="15" stroke="black" text-anchor="middle">gen</text>
+      <text x="200" y="-600" stroke="black" text-anchor="middle">Errors by Type</text>
+      <rect x="438"
+            y="-410"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="gold"/>
+      <rect x="438"
+            y="-430"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="red"/>
+      <rect x="438"
+            y="-450"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="blue"/>
+      <text x="450" y="-400" stroke="black">German</text>
+      <text x="450" y="-420" stroke="black">Slovak</text>
+      <text x="450" y="-440" stroke="black">French</text>
+      <text x="0" y="-75" stroke="black">50</text>
+      <text x="0" y="-150" stroke="black">100</text>
+      <text x="0" y="-225" stroke="black">150</text>
+      <text x="0" y="-300" stroke="black">200</text>
+      <text x="0" y="-375" stroke="black">250</text>
+      <text x="0" y="-450" stroke="black">300</text>
+      <text x="0" y="-525" stroke="black">350</text>
+      <rect x="240"
+            y="-19.5"
+            width="15"
+            height="19.5"
+            stroke="black"
+            fill="gold"/>
+      <rect x="225"
+            y="-0"
+            width="15"
+            height="0"
+            stroke="black"
+            fill="red"/>
+      <rect x="210"
+            y="-0"
+            width="15"
+            height="0"
+            stroke="black"
+            fill="blue"/>
+      <text x="232" y="15" stroke="black" text-anchor="middle">ins</text>
+      <text x="200" y="-600" stroke="black" text-anchor="middle">Errors by Type</text>
+      <rect x="438"
+            y="-410"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="gold"/>
+      <rect x="438"
+            y="-430"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="red"/>
+      <rect x="438"
+            y="-450"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="blue"/>
+      <text x="450" y="-400" stroke="black">German</text>
+      <text x="450" y="-420" stroke="black">Slovak</text>
+      <text x="450" y="-440" stroke="black">French</text>
+      <text x="0" y="-75" stroke="black">50</text>
+      <text x="0" y="-150" stroke="black">100</text>
+      <text x="0" y="-225" stroke="black">150</text>
+      <text x="0" y="-300" stroke="black">200</text>
+      <text x="0" y="-375" stroke="black">250</text>
+      <text x="0" y="-450" stroke="black">300</text>
+      <text x="0" y="-525" stroke="black">350</text>
+      <rect x="290"
+            y="-10.5"
+            width="15"
+            height="10.5"
+            stroke="black"
+            fill="gold"/>
+      <rect x="275"
+            y="-48"
+            width="15"
+            height="48"
+            stroke="black"
+            fill="red"/>
+      <rect x="260"
+            y="-1.5"
+            width="15"
+            height="1.5"
+            stroke="black"
+            fill="blue"/>
+      <text x="282" y="15" stroke="black" text-anchor="middle">moo</text>
+      <text x="200" y="-600" stroke="black" text-anchor="middle">Errors by Type</text>
+      <rect x="438"
+            y="-410"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="gold"/>
+      <rect x="438"
+            y="-430"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="red"/>
+      <rect x="438"
+            y="-450"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="blue"/>
+      <text x="450" y="-400" stroke="black">German</text>
+      <text x="450" y="-420" stroke="black">Slovak</text>
+      <text x="450" y="-440" stroke="black">French</text>
+      <text x="0" y="-75" stroke="black">50</text>
+      <text x="0" y="-150" stroke="black">100</text>
+      <text x="0" y="-225" stroke="black">150</text>
+      <text x="0" y="-300" stroke="black">200</text>
+      <text x="0" y="-375" stroke="black">250</text>
+      <text x="0" y="-450" stroke="black">300</text>
+      <text x="0" y="-525" stroke="black">350</text>
+      <rect x="340"
+            y="-282"
+            width="15"
+            height="282"
+            stroke="black"
+            fill="gold"/>
+      <rect x="325"
+            y="-331.5"
+            width="15"
+            height="331.5"
+            stroke="black"
+            fill="red"/>
+      <rect x="310"
+            y="-82.5"
+            width="15"
+            height="82.5"
+            stroke="black"
+            fill="blue"/>
+      <text x="332" y="15" stroke="black" text-anchor="middle">mst</text>
+      <text x="200" y="-600" stroke="black" text-anchor="middle">Errors by Type</text>
+      <rect x="438"
+            y="-410"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="gold"/>
+      <rect x="438"
+            y="-430"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="red"/>
+      <rect x="438"
+            y="-450"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="blue"/>
+      <text x="450" y="-400" stroke="black">German</text>
+      <text x="450" y="-420" stroke="black">Slovak</text>
+      <text x="450" y="-440" stroke="black">French</text>
+      <text x="0" y="-75" stroke="black">50</text>
+      <text x="0" y="-150" stroke="black">100</text>
+      <text x="0" y="-225" stroke="black">150</text>
+      <text x="0" y="-300" stroke="black">200</text>
+      <text x="0" y="-375" stroke="black">250</text>
+      <text x="0" y="-450" stroke="black">300</text>
+      <text x="0" y="-525" stroke="black">350</text>
+      <rect x="390"
+            y="-7.5"
+            width="15"
+            height="7.5"
+            stroke="black"
+            fill="gold"/>
+      <rect x="375"
+            y="-55.5"
+            width="15"
+            height="55.5"
+            stroke="black"
+            fill="red"/>
+      <rect x="360"
+            y="-4.5"
+            width="15"
+            height="4.5"
+            stroke="black"
+            fill="blue"/>
+      <text x="382" y="15" stroke="black" text-anchor="middle">num</text>
+      <text x="200" y="-600" stroke="black" text-anchor="middle">Errors by Type</text>
+      <rect x="438"
+            y="-410"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="gold"/>
+      <rect x="438"
+            y="-430"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="red"/>
+      <rect x="438"
+            y="-450"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="blue"/>
+      <text x="450" y="-400" stroke="black">German</text>
+      <text x="450" y="-420" stroke="black">Slovak</text>
+      <text x="450" y="-440" stroke="black">French</text>
+      <text x="0" y="-75" stroke="black">50</text>
+      <text x="0" y="-150" stroke="black">100</text>
+      <text x="0" y="-225" stroke="black">150</text>
+      <text x="0" y="-300" stroke="black">200</text>
+      <text x="0" y="-375" stroke="black">250</text>
+      <text x="0" y="-450" stroke="black">300</text>
+      <text x="0" y="-525" stroke="black">350</text>
+      <rect x="440"
+            y="-46.5"
+            width="15"
+            height="46.5"
+            stroke="black"
+            fill="gold"/>
+      <rect x="425"
+            y="-48"
+            width="15"
+            height="48"
+            stroke="black"
+            fill="red"/>
+      <rect x="410"
+            y="-0"
+            width="15"
+            height="0"
+            stroke="black"
+            fill="blue"/>
+      <text x="432" y="15" stroke="black" text-anchor="middle">per</text>
+      <text x="200" y="-600" stroke="black" text-anchor="middle">Errors by Type</text>
+      <rect x="438"
+            y="-410"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="gold"/>
+      <rect x="438"
+            y="-430"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="red"/>
+      <rect x="438"
+            y="-450"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="blue"/>
+      <text x="450" y="-400" stroke="black">German</text>
+      <text x="450" y="-420" stroke="black">Slovak</text>
+      <text x="450" y="-440" stroke="black">French</text>
+      <text x="0" y="-75" stroke="black">50</text>
+      <text x="0" y="-150" stroke="black">100</text>
+      <text x="0" y="-225" stroke="black">150</text>
+      <text x="0" y="-300" stroke="black">200</text>
+      <text x="0" y="-375" stroke="black">250</text>
+      <text x="0" y="-450" stroke="black">300</text>
+      <text x="0" y="-525" stroke="black">350</text>
+      <rect x="490"
+            y="-7.5"
+            width="15"
+            height="7.5"
+            stroke="black"
+            fill="gold"/>
+      <rect x="475"
+            y="-73.5"
+            width="15"
+            height="73.5"
+            stroke="black"
+            fill="red"/>
+      <rect x="460"
+            y="-0"
+            width="15"
+            height="0"
+            stroke="black"
+            fill="blue"/>
+      <text x="482" y="15" stroke="black" text-anchor="middle">pos</text>
+      <text x="200" y="-600" stroke="black" text-anchor="middle">Errors by Type</text>
+      <rect x="438"
+            y="-410"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="gold"/>
+      <rect x="438"
+            y="-430"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="red"/>
+      <rect x="438"
+            y="-450"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="blue"/>
+      <text x="450" y="-400" stroke="black">German</text>
+      <text x="450" y="-420" stroke="black">Slovak</text>
+      <text x="450" y="-440" stroke="black">French</text>
+      <text x="0" y="-75" stroke="black">50</text>
+      <text x="0" y="-150" stroke="black">100</text>
+      <text x="0" y="-225" stroke="black">150</text>
+      <text x="0" y="-300" stroke="black">200</text>
+      <text x="0" y="-375" stroke="black">250</text>
+      <text x="0" y="-450" stroke="black">300</text>
+      <text x="0" y="-525" stroke="black">350</text>
+      <rect x="540"
+            y="-19.5"
+            width="15"
+            height="19.5"
+            stroke="black"
+            fill="gold"/>
+      <rect x="525"
+            y="-105"
+            width="15"
+            height="105"
+            stroke="black"
+            fill="red"/>
+      <rect x="510"
+            y="-12"
+            width="15"
+            height="12"
+            stroke="black"
+            fill="blue"/>
+      <text x="532" y="15" stroke="black" text-anchor="middle">ten</text>
+      <text x="200" y="-600" stroke="black" text-anchor="middle">Errors by Type</text>
+      <rect x="438"
+            y="-410"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="gold"/>
+      <rect x="438"
+            y="-430"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="red"/>
+      <rect x="438"
+            y="-450"
+            width="10"
+            height="10"
+            stroke="black"
+            fill="blue"/>
+      <text x="450" y="-400" stroke="black">German</text>
+      <text x="450" y="-420" stroke="black">Slovak</text>
+      <text x="450" y="-440" stroke="black">French</text>
+      <text x="0" y="-75" stroke="black">50</text>
+      <text x="0" y="-150" stroke="black">100</text>
+      <text x="0" y="-225" stroke="black">150</text>
+      <text x="0" y="-300" stroke="black">200</text>
+      <text x="0" y="-375" stroke="black">250</text>
+      <text x="0" y="-450" stroke="black">300</text>
+      <text x="0" y="-525" stroke="black">350</text>
+   </g>
+</svg>
+                          
+            </div></div>
+        <div class="lastModified">Last Modified:
+            <script type="text/javascript">
+document.write(document.lastModified);
+</script></div>
+    </body>
+</html>
