@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors>
+    <type>asp</type>
+    <type>cas</type>
+    <type>del</type>
+    <type>gen</type>
+    <type>moo</type>
+    <type>mst</type>
+    <type>num</type>
+    <type>per</type>
+    <type>pos</type>
+    <type>ten</type>
+</errors>
