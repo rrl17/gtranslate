@@ -1,0 +1,4322 @@
+<?xml version="1.0" encoding="UTF-8"?><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+      <title>Characterizing Linguistic Divergences in Machine Translation</title>
+      <link rel="stylesheet" type="text/css" href="general.css"></link>
+      <link rel="stylesheet" type="text/css" href="home2.css"></link>
+      <link rel="stylesheet" type="text/css" href="css/squiggle.css"></link>
+      <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8"></link>
+      <style type="text/css">
+         .box{
+         display:none;
+         position: absolute;
+         border: 5px solid blue;
+         background: gold;
+         }
+         .dif{
+         color:green;
+         }
+         div.para1{
+         text-align:left;
+         overflow:auto;
+         margin-right:auto;
+         margin-left:auto;
+         margin-top:5px;
+         margin-bottom:auto;
+         }
+         div.para2{
+         text-align:right;
+         overflow:auto;
+         margin-right:auto;
+         margin-left:auto;
+         margin-top:5x;
+         margin-bottom:auto;
+         }
+         
+         
+         div.subheadmain{
+         margin-left:5px;
+         margin-right:5px;
+         margin-top:5px;
+         margin-bottom:5px;
+         width:auto;
+         height:auto;
+         font-size:200%;
+         padding-top:0px;
+         padding-bottom:0px;
+         color:#5a5a1d;
+         text-align:center;
+         font-family:'starry_nightregular'
+         
+         }
+         div.subhead1{
+         margin-left:5px;
+         margin-right:5px;
+         margin-top:5px;
+         margin-bottom:5px;
+         width:auto;
+         height:auto;
+         font-size:150%;
+         padding-top:0px;
+         padding-bottom:0px;
+         color:#5a5a1d;
+         text-align:left;
+         font-family:'starry_nightregular'
+         
+         }
+         div.subhead2{
+         margin-left:5px;
+         margin-right:5px;
+         margin-top:5px;
+         margin-bottom:5px;
+         width:auto;
+         height:auto;
+         font-size:150%;
+         padding-top:0px;
+         padding-bottom:0px;
+         color:#5a5a1d;
+         text-align:right;
+         font-family:'starry_nightregular'
+         
+         }
+      </style>
+      <script type="text/javascript" src="languageBox.js">/**/</script>
+   </head>
+   <body>
+      <h2>Chapter One</h2>
+      
+      
+      <p>
+         
+         <span class="s">Mr. and Mrs. Dursley at 4 Privet Drive were proud to be entirely normal, very
+            proud even .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>No one would have thought that they could get caught up in a strange and
+            mysterious story, because with such nonsense they wanted to have nothing to do .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Mr. Dursley was the director of a company called Grunnings that manufactured
+            drills.
+         </span>
+         
+         <span class="s">He was tall and stocky and had almost no neck , 
+            <span class="dif" id="n1">but
+               <span class="box" id="bn1">
+                  Part Of Speech: 
+                  conjunction
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> a very large mustache.
+         </span>
+         
+         <span class="s">Mrs. Dursley was thin and blonde and had twice as much neck as might have been
+            necessary , but this was very useful because 
+            <span class="dif" id="n2">they
+               <span class="box" id="bn2">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> could stretch 
+            <span class="dif" id="n3">their
+               <span class="box" id="bn3">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span>
+            
+            <span class="dif" id="n4">necks
+               <span class="box" id="bn4">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  number
+               </span>
+            </span> over the fence and 
+            <span class="dif" id="n5">peeking
+               <span class="box" id="bn5">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  aspect
+               </span>
+            </span> over 
+            <span class="dif" id="n6">to
+               <span class="box" id="bn6">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the
+            neighbors .
+         </span>
+         
+         <span class="s">The Dursleys had a small son called Dudley and in their eyes there was nowhere
+            a more splendid boy.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">The Dursleys had everything they wanted , but they also had a secret , and
+            that someone could discover 
+            <span class="dif" id="n7">
+               <span class="box" id="bn7">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span>, was 
+            <span class="dif" id="n8">her
+               <span class="box" id="bn8">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> biggest worry.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Simply unbearable , if the thing would come out with the Potters would be
+            .
+         </span>
+         
+         <span class="s">Mrs. Potter was Mrs. Dursley 's sister , but the two had not seen each other
+            for many years.
+         </span>
+         
+         <span class="s">Mrs. Dursley even claimed that she had no sister , because 
+            <span class="dif" id="n9">they
+               <span class="box" id="bn9">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> and 
+            <span class="dif" id="n10">their
+               <span class="box" id="bn10">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> no-good of a man were 
+            <span class="dif" id="n11">so
+               <span class="box" id="bn11">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n12">undursleyhaft
+               <span class="box" id="bn12">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> , as could be imagined .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>The Dursleys shuddered at the thought of what the neighbors would say , the
+            Potters one day should show up in their street .
+         </span>
+         
+         <span class="s">The Dursleys knew that the Potters had a small son, but they had never seen
+            
+            <span class="dif" id="n13">
+               <span class="box" id="bn13">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span> before.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Also, this boy was a good reason to stay away from the Potters , with such a
+            child you should not come into contact Dudley .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>When Mr. and Mrs. Dursley on the dim and gray Tuesday, when our story begins ,
+            
+            <span class="dif" id="n14">the eyes
+               <span class="box" id="bn14">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  lexical category
+               </span>
+            </span>
+            
+            <span class="dif" id="n15">pitched
+               <span class="box" id="bn15">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> at the cloudy sky outside no sign of
+            the strange and mysterious things could be seen , which should happen in the country
+            soon everywhere.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Mr. Dursley hummed and looked for work his most boring tie , and Mrs. Dursley
+            gossiped cheerfully 
+            <span class="dif" id="n16">to herself
+               <span class="box" id="bn16">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> as she
+            jockeyed with 
+            <span class="dif" id="n17">the
+               <span class="box" id="bn17">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> screaming Dudley and
+            squeezed him 
+            <span class="dif" id="n18">in
+               <span class="box" id="bn18">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> his high chair.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">None of them saw the huge tawny owl 
+            <span class="dif" id="n19">flying
+               <span class="box" id="bn19">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  aspect
+               </span>
+            </span> past the window.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>At half past eight 
+            <span class="dif" id="n20">attacked
+               <span class="box" id="bn20">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> Mr. Dursley
+            
+            <span class="dif" id="n21">after
+               <span class="box" id="bn21">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n22">the
+               <span class="box" id="bn22">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  lexical category
+               </span>
+            </span> briefcase , gave his wife a peck on the
+            cheek and tried it 
+            <span class="dif" id="n23">at
+               <span class="box" id="bn23">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> Dudley with a farewell
+            kiss.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>However, 
+            <span class="dif" id="n24">the
+               <span class="box" id="bn24">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> went wrong because Dudley
+            just had a tantrum and threw 
+            <span class="dif" id="n25">
+               <span class="box" id="bn25">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  deletion
+               </span>
+            </span>the walls 
+            <span class="dif" id="n26">with
+               <span class="box" id="bn26">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> his porridge.
+         </span>
+         
+         <span class="s">" Little Rascal ," chortled Mr. Dursley as he went outside.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>He sat in the car and drove back 
+            <span class="dif" id="n27">
+               <span class="box" id="bn27">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  deletion
+               </span>
+            </span>the 
+            <span class="dif" id="n28">entrance
+               <span class="box" id="bn28">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n29">to
+               <span class="box" id="bn29">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> number 4 
+            <span class="dif" id="n30">also
+               <span class="box" id="bn30">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>At the street corner, he noticed for the first time something strange - a cat
+            who studied a map .
+         </span>
+         
+         <span class="s">For a moment Mr. Dursley was not clear what he had seen - then he turned
+            quickly 
+            <span class="dif" id="n31">to head back
+               <span class="box" id="bn31">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> to look again.
+         </span>
+         
+         <span class="s">At the 
+            <span class="dif" id="n32">inflection
+               <span class="box" id="bn32">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> to Privet Drive was a
+            tabby cat, but a road map could not be seen .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>What he had just thought 
+            <span class="dif" id="n33">again
+               <span class="box" id="bn33">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> !
+         </span>
+         
+         <span class="s">That must have been a hallucination .</span>
+         
+         <span class="s">Mr. Dursley blinked and stared at the cat.</span>
+         
+         <span class="s">The cat stared back.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>While Mr. Dursley came around the corner and down the street drove
+            , he watched the cat in his rearview mirror .
+         </span>
+         
+         <span class="s">Now 
+            <span class="dif" id="n34">they
+               <span class="box" id="bn34">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span>
+            
+            <span class="dif" id="n35">read
+               <span class="box" id="bn35">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  aspect
+               </span>
+            </span> the sign with the name of Privet Drive -
+            no, she 
+            <span class="dif" id="n36">looked
+               <span class="box" id="bn36">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  aspect
+               </span>
+            </span> at the sign.
+         </span>
+         
+         <span class="s">Cats could not read maps or signs.</span>
+         
+         <span class="s">Mr. Dursley gave himself a little shake and 
+            <span class="dif" id="n37">chased
+               <span class="box" id="bn37">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the cat out of his mind.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>As he drove toward town he had only the big order 
+            <span class="dif" id="n38">for
+               <span class="box" id="bn38">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> drills in the
+            
+            <span class="dif" id="n39">sense
+               <span class="box" id="bn39">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> that would arrive today hopefully .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>But in the suburbs the drills were 
+            <span class="dif" id="n40">replaced
+               <span class="box" id="bn40">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> by something else out of his thoughts .
+         </span>
+         
+         <span class="s">He was stuck in the usual morning traffic jam and could not help but notice
+            that apparently a lot of strangely dressed people were traveling .
+         </span>
+         
+         <span class="s">People in long and wide cloaks .</span>
+         
+         <span class="s">Mr. Dursley could not bear people who 
+            <span class="dif" id="n41">engaged
+               <span class="box" id="bn41">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> weird - like the young people 
+            <span class="dif" id="n42">were cleaning out
+               <span class="box" id="bn42">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> !
+         </span>
+         
+         <span class="s">That probably had to be some stupid new fashion.</span>
+         
+         <span class="s">He drummed his fingers on the steering wheel and his eyes fell on an 
+            <span class="dif" id="n43">accumulation
+               <span class="box" id="bn43">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> of these strange figures not far
+            from him .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Excitedly, they whispered to each other .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Enraged 
+            <span class="dif" id="n44">presented
+               <span class="box" id="bn44">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> Mr. Dursley that some
+            of them were not young; 
+            <span class="dif" id="n45">nanu
+               <span class="box" id="bn45">
+                  Part Of Speech: 
+                  interjection
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> , that man
+            there had to be older than he was and 
+            <span class="dif" id="n46">wore
+               <span class="box" id="bn46">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  aspect
+               </span>
+            </span> an
+            emerald green cloak !
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>
+            <span class="dif" id="n47">
+               <span class="box" id="bn47">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span>Perhaps had nerve !
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>But then Mr. Dursley 
+            <span class="dif" id="n48">fell
+               <span class="box" id="bn48">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> suddenly that
+            this had to be a crazy 
+            <span class="dif" id="n49">fairing well
+               <span class="box" id="bn49">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> - the
+            people gathered apparently for something ...
+         </span>
+         
+         <span class="s">yes , 
+            <span class="dif" id="n50">it
+               <span class="box" id="bn50">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> had to be 
+            <span class="dif" id="n51">
+               <span class="box" id="bn51">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span>.
+         </span>
+         
+         <span class="s">The line of cars moved, and a few minutes later, Mr. Dursley drove into the
+            parking lot of his company , his thoughts again 
+            <span class="dif" id="n52">in
+               <span class="box" id="bn52">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the drills .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>In his office on the ninth floor Mr. Dursley always sat with his back to the
+            window.
+         </span>
+         
+         <span class="s">Otherwise it would 
+            <span class="dif" id="n53">be
+               <span class="box" id="bn53">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> difficult for him
+            
+            <span class="dif" id="n54">this
+               <span class="box" id="bn54">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> morning, to focus on the drills
+            .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>He did not notice the owls , past the shot in broad daylight , 
+            <span class="dif" id="n55">but rather
+               <span class="box" id="bn55">
+                  Part Of Speech: 
+                  conjunction
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the people down in the street, they
+            pointed to the skies and watched with open mouths looking like an owl flew away
+            after another over their heads .
+         </span>
+         
+         <span class="s">Most of them had ever never seen one , not even at night.</span>
+         
+         <span class="s">Mr. Dursley , however, 
+            <span class="dif" id="n56">spent
+               <span class="box" id="bn56">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> a very
+            ordinary , owl -free morning.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>He 
+            <span class="dif" id="n57">made
+               <span class="box" id="bn57">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> five different people to
+            screw.
+         </span>
+         
+         <span class="s">He 
+            <span class="dif" id="n58">led
+               <span class="box" id="bn58">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> several important telephone calls
+            , screaming a little louder.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>By lunchtime he was brilliant mood and now wanted a little stretch their legs
+            and get a donut at the bakery across the street.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>The people in the strange appearance he had long forgotten , but now , on the
+            way to the bakery , he met some of these figures .
+         </span>
+         
+         <span class="s">In passing, he gave them angry looks.</span>
+         
+         <span class="s">He did not know why, but 
+            <span class="dif" id="n59">she
+               <span class="box" id="bn59">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> caused
+            him discomfort.
+         </span>
+         
+         <span class="s">Also this 
+            <span class="dif" id="n60">pack
+               <span class="box" id="bn60">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> here whispering excitedly
+            and a collection box was nowhere to be seen .
+         </span>
+         
+         <span class="s">On the way back from the bakery , a bag with a large donut in his hand, he
+            
+            <span class="dif" id="n61">grabbed
+               <span class="box" id="bn61">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> a few words from them.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"The Potters , that's right , 
+            <span class="dif" id="n62">
+               <span class="box" id="bn62">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span>I
+            <span class="dif" id="n63">'ve heard
+               <span class="box" id="bn63">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> - "
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">" - Yes , their son , Harry - "</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Mr. Dursley stood rooted to the spot .</span>
+         
+         <span class="s">Fear came over him .</span>
+         
+         <span class="s">He turned around 
+            <span class="dif" id="n64">at
+               <span class="box" id="bn64">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the whisperers as
+            if he wanted to tell them something, but then thought better of it .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>He quickly crossed the street , rushed up to the office, snapped at his
+            secretary
+            <span class="dif" id="n65">
+               <span class="box" id="bn65">
+                  Part Of Speech: 
+                  conjunction
+                  Error Type: 
+                  deletion
+               </span>
+            </span> he did not want to be disturbed,
+            grabbed the phone and had almost the number of 
+            <span class="dif" id="n66">selected
+               <span class="box" id="bn66">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> home when he changed his mind .
+         </span>
+         
+         <span class="s">He put the phone down and stroked his mustache.</span>
+         
+         <span class="s">No, he thought , I 'm stupid .</span>
+         
+         <span class="s">Potter was not a particularly unusual name .</span>
+         
+         <span class="s">
+            <span class="dif" id="n67">Sure
+               <span class="box" id="bn67">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  lexical category
+               </span>
+            </span> there were a lot of people who
+            were called Potter and had a son named Harry.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Now that he thought about it, he was not even sure his nephew was called Harry
+            really .
+         </span>
+         
+         <span class="s">He had 
+            <span class="dif" id="n68">not
+               <span class="box" id="bn68">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> even seen the boy .
+         </span>
+         
+         <span class="s">He could also be called Harvey.</span>
+         
+         <span class="s">Or Harold .</span>
+         
+         <span class="s">There was no point in worrying Mrs. Dursley, 
+            <span class="dif" id="n69">they
+               <span class="box" id="bn69">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span>
+            <span class="dif" id="n70">
+               <span class="box" id="bn70">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  deletion
+               </span>
+            </span> got ever so upset if you even
+            mentioned her sister.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>He 
+            <span class="dif" id="n71">made
+               <span class="box" id="bn71">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> her 
+            <span class="dif" id="n72">so
+               <span class="box" id="bn72">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n73">no
+               <span class="box" id="bn73">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n74">accusation
+               <span class="box" id="bn74">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> - if he had such a sister ...
+         </span>
+         
+         <span class="s">And yet , these people in cloaks ...</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>That afternoon, he found it a lot harder to keep his mind on the 
+            <span class="dif" id="n75">drill
+               <span class="box" id="bn75">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  number
+               </span>
+            </span> , and when he left the office at five clock , he
+            was still so full of 
+            <span class="dif" id="n76">sorrow
+               <span class="box" id="bn76">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> that 
+            <span class="dif" id="n77">it
+               <span class="box" id="bn77">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span>
+            
+            <span class="dif" id="n78">is 
+               <span class="box" id="bn78">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            <span class="dif" id="n79">equal
+               <span class="box" id="bn79">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  lexical category
+               </span>
+            </span> collided with 
+            <span class="dif" id="n80">the
+               <span class="box" id="bn80">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> first
+            step 
+            <span class="dif" id="n81">out
+               <span class="box" id="bn81">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> with someone.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Sorry," he 
+            <span class="dif" id="n82">grumbled
+               <span class="box" id="bn82">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> , as the little old
+            man 
+            <span class="dif" id="n83">came to stumble
+               <span class="box" id="bn83">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> and almost fell .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Only after a few seconds 
+            <span class="dif" id="n84">remarked
+               <span class="box" id="bn84">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> Mr.
+            Dursley that the man was wearing a violet cloak.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>That he had almost knocked him 
+            <span class="dif" id="n85">
+               <span class="box" id="bn85">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  deletion
+               </span>
+            </span>did not seem
+            to annoy him 
+            <span class="dif" id="n86">further
+               <span class="box" id="bn86">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  lexical category
+               </span>
+            </span> .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>On the contrary, on his face 
+            <span class="dif" id="n87">opened up
+               <span class="box" id="bn87">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> a
+            big smile , and the people who walked past , looked 
+            <span class="dif" id="n88">up
+               <span class="box" id="bn88">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> when he said in a squeaky voice: " Today I forgive all , my dear 
+            <span class="dif" id="n89">Lord
+               <span class="box" id="bn89">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>, today 
+            <span class="dif" id="n90">I
+               can not derail
+               <span class="box" id="bn90">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> !
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Let us rejoice , for You -Know -Who has gone at last from us!
+         </span>
+         
+         <span class="s">Even Muggles like you should celebrate this joyful , joyful day!</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">And the old man hugged Mr. Dursley around 
+            <span class="dif" id="n91">in
+               <span class="box" id="bn91">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> belly height and departed thence .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Mr. Dursley stood rooted to the spot .</span>
+         
+         <span class="s">A complete stranger had hugged him.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>Also, he had probably been called a Muggle , whatever might be 
+            <span class="dif" id="n92">the one
+               <span class="box" id="bn92">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>.
+         </span>
+         
+         <span class="s">Totally 
+            <span class="dif" id="n93">messed up
+               <span class="box" id="bn93">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> he hurried to his car
+            and drove home.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>He hoped these things 
+            <span class="dif" id="n94">only to fancy
+               <span class="box" id="bn94">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> ,
+            and that was new for him because of imagination he usually kept nothing.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">As he turned into the driveway of number four , 
+            <span class="dif" id="n95">as
+               <span class="box" id="bn95">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> his glance fell first - and 
+            <span class="dif" id="n96">
+               <span class="box" id="bn96">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span>did nothing to improve his mood - on the tabby cat he 'd seen in the
+            morning.
+         </span>
+         
+         <span class="s">She was now sitting on his garden wall.</span>
+         
+         <span class="s">Certainly it was the same cat , and she had the same pattern around
+            
+            <span class="dif" id="n97">the
+               <span class="box" id="bn97">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> eyes.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">" 
+            <span class="dif" id="n98">Shhh
+               <span class="box" id="bn98">
+                  Part Of Speech: 
+                  interjection
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> !
+         </span>
+         
+         <span class="s">" Mr. Dursley hissed loudly.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">The cat did not move.</span>
+         
+         <span class="s">She looked at him 
+            <span class="dif" id="n99">from
+               <span class="box" id="bn99">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> serious eyes
+            .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Was such a thing as normal for cats, Mr. Dursley wondered .
+         </span>
+         
+         <span class="s">He tried to pull 
+            <span class="dif" id="n100">herself
+               <span class="box" id="bn100">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  gender
+               </span>
+            </span> together and
+            opened the front door.
+         </span>
+         
+         <span class="s">Still, he was determined to say nothing of all this 
+            <span class="dif" id="n101">
+               <span class="box" id="bn101">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  deletion
+               </span>
+            </span>his wife.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Mrs. Dursley 
+            <span class="dif" id="n102">had
+               <span class="box" id="bn102">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> a nice , ordinary day
+            
+            <span class="dif" id="n103">behind
+               <span class="box" id="bn103">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>.
+         </span>
+         
+         <span class="s">At dinner she told him all about 
+            <span class="dif" id="n104">Woman
+               Nachbarins
+               <span class="box" id="bn104">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> problems with 
+            <span class="dif" id="n105">their
+               <span class="box" id="bn105">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span>
+            daughter and that Dudley had learned a new word (" 
+            <span class="dif" id="n106">Pooh
+               <span class="box" id="bn106">
+                  Part Of Speech: 
+                  interjection
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> ").
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Mr. Dursley tried quite 
+            <span class="dif" id="n107">as
+               <span class="box" id="bn107">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> always to
+            
+            <span class="dif" id="n108">give
+               <span class="box" id="bn108">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>.
+         </span>
+         
+         <span class="s">After Dudley had been put to bed , he went into the living room , where he
+            watched the latest news on the evening news .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">" And here's another message.</span>
+         
+         <span class="s">As the bird watchers across the country report , our owls have behaved very
+            unusually today.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Although owls normally hunt at night and during the day hardly 
+            <span class="dif" id="n109">be
+               <span class="box" id="bn109">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> seen , these birds have been observed since sunrise
+            hundreds of times , as they 
+            <span class="dif" id="n110">had flown
+               <span class="box" id="bn110">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> back
+            and forth across the country.
+         </span>
+         
+         <span class="s">Experts can not explain why the owls have suddenly changed their habits ." The
+            newscaster allowed himself a grin.
+         </span>
+         
+         <span class="s">" Very mysterious.</span>
+         
+         <span class="s">And now to Jim McGuffin with the weather.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>Are owls more today evening showers expected , Jim?"
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Well, Ted ," said the weatherman , " 
+            <span class="dif" id="n111">said
+               <span class="box" id="bn111">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> I can not say, but it's not only the owls that 
+            <span class="dif" id="n112">have
+               <span class="box" id="bn112">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> now behaving strangely .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>
+            <span class="dif" id="n113">Spectators
+               <span class="box" id="bn113">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> from 
+            <span class="dif" id="n114">as
+               <span class="box" id="bn114">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> far away areas such as Kent , Yorkshire and Dundee have
+            called me today and reported that all showers are 
+            <span class="dif" id="n115">descended
+               <span class="box" id="bn115">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  aspect
+               </span>
+            </span>
+            
+            <span class="dif" id="n116">from
+               <span class="box" id="bn116">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> shooting stars instead of the rain I
+            promised yesterday!
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Maybe people 
+            <span class="dif" id="n117">have celebrated
+               <span class="box" id="bn117">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> too early
+            New Year's Eve - that's still a while to go , ladies and gentlemen !
+         </span>
+         
+         <span class="s">But I can promise a wet night for 
+            <span class="dif" id="n118">today
+               <span class="box" id="bn118">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>."
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Mr. Dursley sat stiff as an icicle in his chair.</span>
+         
+         <span class="s">Shooting stars all over Britain?</span>
+         
+         <span class="s">Owls that flew 
+            <span class="dif" id="n119">in
+               <span class="box" id="bn119">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the day ?
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Everywhere mysterious people in weird clothes?
+         </span>
+         
+         <span class="s">And a whisper , a whisper about the Potters ...</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Mrs. Dursley came into the living room with two cups of tea .</span>
+         
+         <span class="s">It was no use .</span>
+         
+         <span class="s">He had to tell her something .</span>
+         
+         <span class="s">He nervously cleared his throat.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>"Uh - Petunia , dear - you have not heard lately from your sister , or "?
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">As he had feared , Mrs. Dursley looked at him , horrified and angry.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>
+            <span class="dif" id="n120">Finally
+               <span class="box" id="bn120">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>, they 
+            <span class="dif" id="n121">did
+               <span class="box" id="bn121">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n122">so
+               <span class="box" id="bn122">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> usually , as if she had no sister .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"No," she said sharply .</span>
+         
+         <span class="s">"Why ?"</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">" Funny stuff in the news," Mr. Dursley mumbled .</span>
+         
+         <span class="s">" Owls ...</span>
+         
+         <span class="s">shooting stars ...</span>
+         
+         <span class="s">and today 
+            <span class="dif" id="n123">
+               <span class="box" id="bn123">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span> were a lot of funny -looking
+            people in town ...
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"And ?</span>
+         
+         <span class="s">" Snapped Mrs. Dursley .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Well, I just thought ...</span>
+         
+         <span class="s">maybe ...</span>
+         
+         <span class="s">it has something to do with ...</span>
+         
+         <span class="s">you know ...</span>
+         
+         <span class="s">her 
+            <span class="dif" id="n124">coterie
+               <span class="box" id="bn124">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">" Mrs. Dursley sipped her tea with pursed lips .</span>
+         
+         <span class="s">
+            <span class="dif" id="n125">Could
+               <span class="box" id="bn125">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> he dare to tell her that he had
+            heard the name " Potter "?
+         </span>
+         
+         <span class="s">No, he could not.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>Instead, he remarked as casually as he could , " Their son - he would be about
+            Dudley's age 
+            <span class="dif" id="n126">in
+               <span class="box" id="bn126">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> , or ?"
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"I suppose ," 
+            <span class="dif" id="n127">
+               <span class="box" id="bn127">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  deletion
+               </span>
+            </span>Mrs. Dursley stiffly .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"What was his name again ?</span>
+         
+         <span class="s">
+            <span class="ast">*</span>Howard , is not it ?"
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">" Harry.</span>
+         
+         <span class="s">An ugly , common name , if you ask me ."</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Oh yes," said Mr. Dursley , and 
+            <span class="dif" id="n128">the
+               <span class="box" id="bn128">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            heart slipped into his 
+            <span class="dif" id="n129">pants
+               <span class="box" id="bn129">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>.
+         </span>
+         
+         <span class="s">"Yes , I agree with you ."</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Until it was time to sleep and they went upstairs , he 
+            <span class="dif" id="n130">lost
+               <span class="box" id="bn130">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> not a word about it .
+         </span>
+         
+         <span class="s">While Mrs. Dursley was in the bathroom, Mr. Dursley crept to the bedroom
+            window and peered down into the front garden.
+         </span>
+         
+         <span class="s">The cat was still there.</span>
+         
+         <span class="s">She stared at Privet Drive as though 
+            <span class="dif" id="n131">it
+               <span class="box" id="bn131">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> was waiting for something .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>Was it his imagination everything one only ?
+         </span>
+         
+         <span class="s">Could all this have anything to do with the Potters ?</span>
+         
+         <span class="s">If it was so ...</span>
+         
+         <span class="s">and when came out that they were related to a pair of - no, he 
+            <span class="dif" id="n132">would
+               <span class="box" id="bn132">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> simply 
+            <span class="dif" id="n133">can
+               <span class="box" id="bn133">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mood
+               </span>
+            </span>
+            not bear 
+            <span class="dif" id="n134">
+               <span class="box" id="bn134">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span>.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">The Dursleys went to bed.</span>
+         
+         <span class="s">Mrs. Dursley fell asleep quickly 
+            <span class="dif" id="n135">one
+               <span class="box" id="bn135">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> ,
+            but Mr. Dursley lay awake and 
+            <span class="dif" id="n136">rolled
+               <span class="box" id="bn136">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> it all
+            over again in 
+            <span class="dif" id="n137">my
+               <span class="box" id="bn137">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> head 
+            <span class="dif" id="n138">back and forth
+               <span class="box" id="bn138">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>.
+         </span>
+         
+         <span class="s">Before he fell asleep , 
+            <span class="dif" id="n139">it
+               <span class="box" id="bn139">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span>
+            
+            <span class="dif" id="n140">was
+               <span class="box" id="bn140">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> a last , comforting thought .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Even if the Potters had 
+            <span class="dif" id="n141">
+               <span class="box" id="bn141">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  deletion
+               </span>
+            </span> really to do with
+            this story, there was no reason why they should show up at 
+            <span class="dif" id="n142">him
+               <span class="box" id="bn142">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  case
+               </span>
+            </span> and Mrs. Dursley .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>The Potters knew very well what he and Petunia 
+            <span class="dif" id="n143">from
+               <span class="box" id="bn143">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> them and their kind thought ...
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>He could not think how he and Petunia should get 
+            <span class="dif" id="n144">
+               <span class="box" id="bn144">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  deletion
+               </span>
+            </span>into anything out there was going on - he yawned and turned over on
+            his side - so would he and his wife have certainly nothing to do 
+            <span class="dif" id="n145">
+               <span class="box" id="bn145">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  deletion
+               </span>
+            </span>
+            <span class="dif" id="n146">
+               <span class="box" id="bn146">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span>...
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>How 
+            <span class="dif" id="n147">much
+               <span class="box" id="bn147">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> he was mistaken .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Mr. Dursley might have 
+            <span class="dif" id="n148">hinübergeglitten
+               <span class="box" id="bn148">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            into an uneasy sleep, but the cat outside on the wall showed no sign of fatigue.
+         </span>
+         
+         <span class="s">She sat still as a statue , 
+            <span class="dif" id="n149">his
+               <span class="box" id="bn149">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  gender
+               </span>
+            </span> eyes
+            unblinking , focused on the more remote corner of Privet Drive .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>No hairs stirred when a road was further slammed a car door or as two owls
+            away 
+            <span class="dif" id="n150">buzzed
+               <span class="box" id="bn150">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> over her head.
+         </span>
+         
+         <span class="s">In fact, it was almost midnight when the cat 
+            <span class="dif" id="n151">was stirring
+               <span class="box" id="bn151">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  aspect
+               </span>
+            </span> for the first time .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>At the corner , 
+            <span class="dif" id="n152">they
+               <span class="box" id="bn152">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span>
+            
+            <span class="dif" id="n153">had observed
+               <span class="box" id="bn153">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  case
+               </span>
+            </span>
+            <span class="dif" id="n154">
+               <span class="box" id="bn154">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  deletion
+               </span>
+            </span> a man appeared so suddenly and silently , as if he had grown straight from the
+            ground.
+         </span>
+         
+         <span class="s">The cat's tail twitched and its eyes narrowed to slits.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">A man like this had never been seen in Privet Drive .</span>
+         
+         <span class="s">
+            <span class="ast">*</span>He was tall, thin and very old , or at least 
+            <span class="dif" id="n155">close
+               <span class="box" id="bn155">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> to the silver color of his hair and beard 
+            <span class="dif" id="n156">after
+               <span class="box" id="bn156">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> , both were so long that they could have stuck
+            in his belt.
+         </span>
+         
+         <span class="s">He wore a long robe , a purple cloak that touched the ground, and buckle boots
+            with high heels.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>His blue eyes shone sparkling behind half-moon spectacles out , and his nose
+            was very long and crooked, as if it 
+            <span class="dif" id="n157">had
+               broken
+               <span class="box" id="bn157">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mood
+               </span>
+            </span> at least twice.
+         </span>
+         
+         <span class="s">This man's name was Albus Dumbledore.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>Albus Dumbledore did not seem to notice that he had just appeared in a street
+            where everything was welcome 
+            <span class="dif" id="n158">to
+               <span class="box" id="bn158">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> him , from
+            his name to his boots , by no means .
+         </span>
+         
+         <span class="s">Lost in thought, he rummaged through the pockets of his cloak .</span>
+         
+         <span class="s">
+            <span class="dif" id="n159">But
+               <span class="box" id="bn159">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> apparently he noticed that he was
+            being watched , because he suddenly looked over 
+            <span class="dif" id="n160">to
+               <span class="box" id="bn160">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the cat , which was still staring at him from the other end of the
+            street.
+         </span>
+         
+         <span class="s">For some reason, the cat's 
+            <span class="dif" id="n161">sight
+               <span class="box" id="bn161">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> seemed
+            to amuse him .
+         </span>
+         
+         <span class="s">He chuckled and muttered, " I should have known ."</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">In his pocket he had found what he was looking for.</span>
+         
+         <span class="s">It looked like a silver cigarette lighter.</span>
+         
+         <span class="s">He flipped open the lid , held it high in the air and let it snap .</span>
+         
+         <span class="s">With a soft " plop " a street lamp went out in the vicinity.</span>
+         
+         <span class="s">He turned again - and the next lantern flickered and went out.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>Twelve times he 
+            <span class="dif" id="n162">switched
+               <span class="box" id="bn162">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n163">to
+               <span class="box" id="bn163">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the 
+            <span class="dif" id="n164">Ausmacher
+               <span class="box" id="bn164">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> until the only lights that could be seen all over the road 
+            <span class="dif" id="n165">yet
+               <span class="box" id="bn165">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> , two little 
+            <span class="dif" id="n166">pinheads
+               <span class="box" id="bn166">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> in the distance were , and that was the cat , who was
+            watching him 
+            <span class="dif" id="n167">the
+               <span class="box" id="bn167">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> eyes.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>No one who would now looked out the window , not even the keen-eyed Mrs.
+            Dursley, anything would have noticed by now what happened on the sidewalk below.
+         </span>
+         
+         <span class="s">Dumbledore 
+            <span class="dif" id="n168">left
+               <span class="box" id="bn168">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the 
+            <span class="dif" id="n169">Ausmacher
+               <span class="box" id="bn169">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> slip into 
+            <span class="dif" id="n170">the
+               <span class="box" id="bn170">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> robe pocket and made his way along the road to number four , where he
+            sat down on the wall next to the cat.
+         </span>
+         
+         <span class="s">He did not look at 
+            <span class="dif" id="n171">
+               <span class="box" id="bn171">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span>, but after a while he
+            spoke to her .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"What a surprise to see you here , Professor McGonagall.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">With a smile, he turned to the side, but the tiger cat was gone.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>In 
+            <span class="dif" id="n172">their
+               <span class="box" id="bn172">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> place he smiled at a pretty
+            serious -looking woman with glasses , the glasses were square as the pattern around
+            the eyes of the cat.
+         </span>
+         
+         <span class="s">She also wore a cloak , an emerald green 
+            <span class="dif" id="n173">
+               <span class="box" id="bn173">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span>.
+         </span>
+         
+         <span class="s">Her black hair was tied back in a tight bun .</span>
+         
+         <span class="s">She looked quite confused.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"How did you know it was me ?</span>
+         
+         <span class="s">" She asked .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"My dear Professor, I 've never seen a cat sit so stiffly.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"They would also be stiff if 
+            <span class="dif" id="n174">you
+               <span class="box" id="bn174">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span>'d
+            been sitting all day on a brick wall," said Professor McGonagall.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">" The whole day ?</span>
+         
+         <span class="s">
+            <span class="dif" id="n175">Where
+               <span class="box" id="bn175">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> you have yet to celebrate ?
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>I must have passed on the way to at least a dozen feasts and parties.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Angry Professor McGonagall snorted through the nose.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Oh, yes , the whole world is celebrating , very nice ," she said
+            impatiently.
+         </span>
+         
+         <span class="s">"You'd think they could be a bit more careful , but no - even the Muggles have
+            noticed something 's going on.
+         </span>
+         
+         <span class="s">They 
+            <span class="dif" id="n176">took
+               <span class="box" id="bn176">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> it 
+            <span class="dif" id="n177">in
+               <span class="box" id="bn177">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n178">their
+               <span class="box" id="bn178">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n179">messages
+               <span class="box" id="bn179">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>.
+         </span>
+         
+         <span class="s">" With a head 
+            <span class="dif" id="n180">jerking
+               <span class="box" id="bn180">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> she pointed to
+            the dark living room window of the Dursleys .
+         </span>
+         
+         <span class="s">"I'
+            <span class="dif" id="n181">ve heard
+               <span class="box" id="bn181">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> it .
+         </span>
+         
+         <span class="s">Swarms of owls ...</span>
+         
+         <span class="s">shooting stars ...</span>
+         
+         <span class="s">Well, they are not quite stupid 
+            <span class="dif" id="n182">again
+               <span class="box" id="bn182">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            .
+         </span>
+         
+         <span class="s">
+            <span class="dif" id="n183">You
+               <span class="box" id="bn183">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> just had to notice 
+            <span class="dif" id="n184">anything
+               <span class="box" id="bn184">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> .
+         </span>
+         
+         <span class="s">Shooting stars down in Kent - I 'll bet that was Dedalus Diggle .</span>
+         
+         <span class="s">He was never particularly 
+            <span class="dif" id="n185">reasonable
+               <span class="box" id="bn185">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"You can not blame them ," said Dumbledore gently .</span>
+         
+         <span class="s">"Eleven years we have had precious little to celebrate .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"I know," said Professor McGonagall irritably.</span>
+         
+         <span class="s">"But that's no reason to lose your head .</span>
+         
+         <span class="s">
+            <span class="ast">*</span>People are just careless when in broad daylight roam outside 
+            <span class="dif" id="n186">on
+               <span class="box" id="bn186">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the streets and 
+            <span class="dif" id="n187">give
+               <span class="box" id="bn187">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> rumors for the best.
+         </span>
+         
+         <span class="s">At least they could 
+            <span class="dif" id="n188">attract
+               <span class="box" id="bn188">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> Muggle
+            things.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">She turned to Dumbledore with a sharp eye , as she hoped he would tell her
+            something .
+         </span>
+         
+         <span class="s">But he was silent and she continued : "That would be a pretty kettle of fish
+            
+            <span class="dif" id="n189">when
+               <span class="box" id="bn189">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n190">calculated
+               <span class="box" id="bn190">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> on the day that You-Know -Who
+            finally disappears, the 
+            <span class="dif" id="n191">Muggle
+               <span class="box" id="bn191">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  number
+               </span>
+            </span>
+            
+            <span class="dif" id="n192">everything
+               <span class="box" id="bn192">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> would find out about us.
+         </span>
+         
+         <span class="s">I suppose he is really gone, Dumbledore ?</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"It certainly looks 
+            <span class="dif" id="n193">
+               <span class="box" id="bn193">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  deletion
+               </span>
+            </span>," said Dumbledore
+            .
+         </span>
+         
+         <span class="s">"We have to be grateful for many things.</span>
+         
+         <span class="s">Would you like a 
+            <span class="dif" id="n194">shower
+               <span class="box" id="bn194">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> candy ?
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"A what ?"</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s"> A lemon effervescent candy.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>A sweet 
+            <span class="dif" id="n195">tooth
+               <span class="box" id="bn195">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> muggle , 
+            <span class="dif" id="n196">
+               <span class="box" id="bn196">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  deletion
+               </span>
+            </span>which I'm very 
+            <span class="dif" id="n197">sharp
+               <span class="box" id="bn197">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>"No, thank you," Professor McGonagall said coldly , as if not now 
+            <span class="dif" id="n198">is
+               <span class="box" id="bn198">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> the right moment for 
+            <span class="dif" id="n199">sherbet
+               <span class="box" id="bn199">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n200">lemons
+               <span class="box" id="bn200">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  number
+               </span>
+            </span> .
+         </span>
+         
+         <span class="s">" Like I said , even if You-Know -Who is really gone - "</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>"My dear Professor , a reasonable person 
+            <span class="dif" id="n201">as
+               <span class="box" id="bn201">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> you can 
+            <span class="dif" id="n202">but
+               <span class="box" id="bn202">
+                  Part Of Speech: 
+                  conjunction
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> it certainly
+            name 
+            <span class="dif" id="n203">them
+               <span class="box" id="bn203">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> ?
+         </span>
+         
+         <span class="s">The whole nonsense with 'You -Know -Who' - for eleven years I'
+            <span class="dif" id="n204">m trying
+               <span class="box" id="bn204">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> to get people to call him by his real name
+            .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Voldemort , " Professor McGonagall flinched , but Dumbledore , 
+            <span class="dif" id="n205">the
+               <span class="box" id="bn205">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> two 
+            <span class="dif" id="n206">other
+               <span class="box" id="bn206">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> sweets from the bag 
+            <span class="dif" id="n207">fished
+               <span class="box" id="bn207">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  aspect
+               </span>
+            </span> ,
+            
+            <span class="dif" id="n208">it
+               <span class="box" id="bn208">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> seemed to take no notice .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>"It confused but only if we continually 'You-Know -Who say' .
+         </span>
+         
+         <span class="s">I've never seen why I should have fear to speak Voldemort's name.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"I know well," Professor McGonagall said, half 
+            <span class="dif" id="n209">applied
+               <span class="box" id="bn209">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> , half admiringly.
+         </span>
+         
+         <span class="s">"But you're different .</span>
+         
+         <span class="s">We all know that you are the only one You-Know ...</span>
+         
+         <span class="s">um, well, Voldemort feared .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"You flatter me ," said Dumbledore quietly.</span>
+         
+         <span class="s">" Voldemort had powers I will never have .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Just because you - yes - are 
+            <span class="dif" id="n210">
+               <span class="box" id="bn210">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  deletion
+               </span>
+            </span> noble to
+            use them ."
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Lucky that it is dark.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>
+            <span class="dif" id="n211">So
+               <span class="box" id="bn211">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> I 
+            <span class="dif" id="n212">am
+               <span class="box" id="bn212">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n213">no
+               <span class="box" id="bn213">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n214">longer
+               <span class="box" id="bn214">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> turned red , since Madam Pomfrey
+            told me she liked my new earmuffs .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Professor McGonagall looked at Dumbledore sharply and said, " The owls are
+            nothing compared to the rumors flying around .
+         </span>
+         
+         <span class="s">Do you know what they all 
+            <span class="dif" id="n215">say
+               <span class="box" id="bn215">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  aspect
+               </span>
+            </span> ?
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Why is he gone ?
+         </span>
+         
+         <span class="s">What has finally stopped him ?</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>Apparently Professor McGonagall had reached the point 
+            <span class="dif" id="n216">beyond
+               <span class="box" id="bn216">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> which 
+            <span class="dif" id="n217">they
+               <span class="box" id="bn217">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span>
+            wanted to talk about the real reason why she had been waiting all day on a cold,
+            hard wall , for neither as a cat nor as a woman she had Dumbledore with such a
+            piercing gaze nailed as right now.
+         </span>
+         
+         <span class="s">Whatever " 
+            <span class="dif" id="n218">all
+               <span class="box" id="bn218">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> " liked say ,
+            obviously she 
+            <span class="dif" id="n219">did
+               <span class="box" id="bn219">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mood
+               </span>
+            </span> not believe it until she
+            had heard it from the mouth of Dumbledore.
+         </span>
+         
+         <span class="s">
+            <span class="dif" id="n220">The
+               <span class="box" id="bn220">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> however, took another 
+            <span class="dif" id="n221">shower
+               <span class="box" id="bn221">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> lemon candy and said nothing.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">" What do they say ,"
+            <span class="dif" id="n222">
+               <span class="box" id="bn222">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span> urged 
+            <span class="dif" id="n223">them
+               <span class="box" id="bn223">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> on, " is in fact that last night Voldemort
+            turned up in Godric 's Hollow .
+         </span>
+         
+         <span class="s">He was looking for the Potters.</span>
+         
+         <span class="s">According to the rumor are Lily and James Potter - they are - dead "</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Dumbledore slowly lowered his head .</span>
+         
+         <span class="s">Professor McGonagall stopped breathing .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Lily and James ...</span>
+         
+         <span class="s">I can not believe it ...</span>
+         
+         <span class="s">I did not believe it ...</span>
+         
+         <span class="s">Oh , Albus ...</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Dumbledore reached out and patted her gently on the 
+            <span class="dif" id="n224">shoulders
+               <span class="box" id="bn224">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  number
+               </span>
+            </span>.
+         </span>
+         
+         <span class="s">"I know ...</span>
+         
+         <span class="s">I know ...</span>
+         
+         <span class="s">" he said in a husky voice.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Professor McGonagall went on in a trembling voice: " That's not all .</span>
+         
+         <span class="s">
+            <span class="ast">*</span>It is said that he tried to kill Harry Potter's son .
+         </span>
+         
+         <span class="s">But - he could not.</span>
+         
+         <span class="s">He could not kill that little boy .</span>
+         
+         <span class="s">No one knows why or how, but it is 
+            <span class="dif" id="n225">
+               <span class="box" id="bn225">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  deletion
+               </span>
+            </span>, 
+            <span class="dif" id="n226">as
+               <span class="box" id="bn226">
+                  Part Of Speech: 
+                  conjunction
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> he could not kill Harry Potter ,
+            Voldemort's power fell in on itself - and that's why he is gone .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Dumbledore nodded gloomily .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Is that - ?</span>
+         
+         <span class="s">True," stammered Professor McGonagall.</span>
+         
+         <span class="s">"After all the things he has done - after all the people he killed - he could
+            not kill a little boy ?
+         </span>
+         
+         <span class="s">This is just unbelievable ...</span>
+         
+         <span class="s">
+            <span class="ast">*</span>just that sets it to an end ...
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>but how in heaven's Harry could survive that?
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"We can only guess ," said Dumbledore .</span>
+         
+         <span class="s">"Maybe we 'll never know .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Professor McGonagall pulled out a lace handkerchief and dabbed at her eyes
+            beneath 
+            <span class="dif" id="n227">the
+               <span class="box" id="bn227">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> glasses.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Dumbledore pulled a golden 
+            <span class="dif" id="n228">clock
+               <span class="box" id="bn228">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> from
+            his pocket and gave a long sniff 
+            <span class="dif" id="n229">of
+               <span class="box" id="bn229">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  insertion
+               </span>
+            </span>
+            
+            <span class="dif" id="n230">itself
+               <span class="box" id="bn230">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  insertion
+               </span>
+            </span>.
+         </span>
+         
+         <span class="s">It was a very curious 
+            <span class="dif" id="n231">clock
+               <span class="box" id="bn231">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> .
+         </span>
+         
+         <span class="s">
+            <span class="dif" id="n232">She
+               <span class="box" id="bn232">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> had twelve hands but no numbers ;
+            instead, little planets 
+            <span class="dif" id="n233">turning
+               <span class="box" id="bn233">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> in 
+            <span class="dif" id="n234">her
+               <span class="box" id="bn234">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n235">lap
+               <span class="box" id="bn235">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Dumbledore had in any case this 
+            <span class="dif" id="n236">clock
+               <span class="box" id="bn236">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n237">to
+               <span class="box" id="bn237">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n238">tell
+               <span class="box" id="bn238">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mood
+               </span>
+            </span> something, because he put it back in the
+            bag and said, " Hagrid 
+            <span class="dif" id="n239">
+               <span class="box" id="bn239">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  deletion
+               </span>
+            </span> late.
+         </span>
+         
+         <span class="s">By the way, I suppose he told you that I would come here ?</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Yes," said Professor McGonagall.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>"And I do not suppose you will tell me , why are you here of all places ?
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"I've come to bring Harry to his aunt and uncle.</span>
+         
+         <span class="s">They are the only ones in the family who are still left to him .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>" You do not mean - you simply can not 
+            <span class="dif" id="n240">
+               <span class="box" id="bn240">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  deletion
+               </span>
+            </span>
+            people think that stay here ," cried Professor McGonagall , jumping up and pointing
+            at number 4 " Dumbledore - you can not.
+         </span>
+         
+         <span class="s">I've 
+            <span class="dif" id="n241">seen
+               <span class="box" id="bn241">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> all day.
+         </span>
+         
+         <span class="s">You could not find two people who resemble us less.</span>
+         
+         <span class="s">
+            <span class="ast">*</span>And they have this boy - I'
+            <span class="dif" id="n242">ve seen
+               <span class="box" id="bn242">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> how
+            he tortured his mother all the way down the street 
+            <span class="dif" id="n243">and
+               <span class="box" id="bn243">
+                  Part Of Speech: 
+                  conjunction
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> screaming for sweets .
+         </span>
+         
+         <span class="s">Harry Potter 
+            <span class="dif" id="n244">
+               <span class="box" id="bn244">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  deletion
+               </span>
+            </span> and live here ?
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"This is the best place for him," Dumbledore said firmly. » Uncle and aunt
+            will be able to explain everything to him when he is older.
+         </span>
+         
+         <span class="s">I have written them a letter .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"A letter?</span>
+         
+         <span class="s">" Repeated Professor McGonagall with 
+            <span class="dif" id="n245">stifling
+               <span class="box" id="bn245">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> voice and sat back down on the wall.
+         </span>
+         
+         <span class="s">"Really, Dumbledore , you think you can explain all this in a letter ?</span>
+         
+         <span class="s">These people will never understand him!</span>
+         
+         <span class="s">
+            <span class="ast">*</span>He'll be famous - a legend - I would not be surprised if the current day is
+            called in the future Harry Potter day - all the books 
+            <span class="dif" id="n246">you
+               <span class="box" id="bn246">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> will write about Harry - every child in our world will know
+            his name "
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Exactly," said Dumbledore , looking very seriously over the half-moons of his
+            reading glasses.
+         </span>
+         
+         <span class="s">"That would be enough to turn any boy's head .</span>
+         
+         <span class="s">Famous before he can walk and talk !</span>
+         
+         <span class="s">Famous for something that he will not even remember !</span>
+         
+         <span class="s">Do not you see how much better it would be for him 
+            <span class="dif" id="n247">when
+               <span class="box" id="bn247">
+                  Part Of Speech: 
+                  conjunction
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> he grows up away from all that until he's ready to
+            comprehend it ?
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Professor McGonagall opened her mouth , changed her mind , swallowed, and
+            said, "Yes - yes , you're right , of course.
+         </span>
+         
+         <span class="s">But 
+            <span class="dif" id="n248">as
+               <span class="box" id="bn248">
+                  Part Of Speech: 
+                  conjunction
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the boy comes here ,
+            Dumbledore ?
+         </span>
+         
+         <span class="s">" Suddenly she looked at his cloak as she thought , maybe he was hiding little
+            Harry 
+            <span class="dif" id="n249">among
+               <span class="box" id="bn249">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n250">them
+               <span class="box" id="bn250">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">" Hagrid 
+            <span class="dif" id="n251">brings
+               <span class="box" id="bn251">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  aspect
+               </span>
+            </span>
+            
+            <span class="dif" id="n252">with
+               <span class="box" id="bn252">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> him.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>"You think it - wise Hagrid to entrust something 
+            <span class="dif" id="n253">as
+               <span class="box" id="bn253">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> important 
+            <span class="dif" id="n254">
+               <span class="box" id="bn254">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  deletion
+               </span>
+            </span>"
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"I would trust Hagrid my life ," said Dumbledore .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"I am not suggesting that his heart is not in the right place ," muttered
+            Professor McGonagall , "but you can not do so , as if he would be particularly
+            prudent.
+         </span>
+         
+         <span class="s">He tends to - what was that ?</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">A low hum had broken the silence around them .</span>
+         
+         <span class="s">
+            <span class="ast">*</span>Louder and louder it 
+            <span class="dif" id="n255">was
+               <span class="box" id="bn255">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> , and they
+            looked left and right down the road, if perhaps appeared a spotlight .
+         </span>
+         
+         <span class="s">The noise rose to a roar , and 
+            <span class="dif" id="n256">as
+               <span class="box" id="bn256">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> they
+            both looked to the sky - as a huge motorcycle fell out of the sky and landed on the
+            road in front of them .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="dif" id="n257">Even
+               <span class="box" id="bn257">
+                  Part Of Speech: 
+                  conjunction
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the motorcycle was huge, but
+            nothing compared to the man sitting astride it.
+         </span>
+         
+         <span class="s">
+            <span class="dif" id="n258">It
+               <span class="box" id="bn258">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> was almost twice as large as an
+            ordinary man and at least five times as wide.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>He looked absolutely forbidden thick , and so wild - hair and beard covered
+            with long strands almost his whole face , he had hands the size of trash can lids,
+            and plugged into the leather boots feet like Delphi babies.
+         </span>
+         
+         <span class="s">In his expansive , muscular arms he was holding a bundle of linen cloth .</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">" Hagrid ," said Dumbledore with 
+            <span class="dif" id="n259">
+               <span class="box" id="bn259">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  deletion
+               </span>
+            </span> relieved
+            voice.
+         </span>
+         
+         <span class="s">"At last .</span>
+         
+         <span class="s">And where did you get this bike from?"</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"
+            <span class="dif" id="n260">Do
+               <span class="box" id="bn260">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> borrowed it , Professor Dumbledore
+            , sir," said the giant , climbing carefully from his motorcycle.
+         </span>
+         
+         <span class="s">"Young Sirius Black 
+            <span class="dif" id="n261">has lent
+               <span class="box" id="bn261">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  tense
+               </span>
+            </span> it to
+            me.
+         </span>
+         
+         <span class="s">I've got him , sir.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"
+            <span class="dif" id="n262">Do
+               <span class="box" id="bn262">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  insertion
+               </span>
+            </span>
+            
+            <span class="dif" id="n263">not
+               <span class="box" id="bn263">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> trouble?
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>"No, sir - house was almost destroyed , but I got 
+            <span class="dif" id="n264">it
+               <span class="box" id="bn264">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> just to get out before the Muggles came 
+            <span class="dif" id="n265">is
+               <span class="box" id="bn265">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  insertion
+               </span>
+            </span>
+            
+            <span class="dif" id="n266">buzzing
+               <span class="box" id="bn266">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> .
+         </span>
+         
+         <span class="s">He fell asleep as we were flying over Bristol.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Dumbledore and Professor McGonagall bent their heads over the sheet
+            bundle.
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Inside was , just to see just a little boy , hardly more than a baby, sound
+            asleep .
+         </span>
+         
+         <span class="s">Under a tuft of jet-black hair on his forehead they could see a strange cut
+            that looked like lightning.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Is that where - ?"</span>
+         
+         <span class="s">Whispered Professor McGonagall.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Yes," said Dumbledore.</span>
+         
+         <span class="s">" This scar will always be him.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>"Can not you do something about it , Dumbledore ?
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Even if I could , I would not .</span>
+         
+         <span class="s">Scars can be quite useful .</span>
+         
+         <span class="s">I myself have one on top of 
+            <span class="dif" id="n267">the
+               <span class="box" id="bn267">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> left
+            knee and 
+            <span class="dif" id="n268">
+               <span class="box" id="bn268">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span> is a flawless plan of the London
+            Underground .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>Well - give 
+            <span class="dif" id="n269">it
+               <span class="box" id="bn269">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> to me , Hagrid - we
+            
+            <span class="dif" id="n270">bring
+               <span class="box" id="bn270">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n271">it
+               <span class="box" id="bn271">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> better behind us.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Dumbledore took Harry in his arms and turned to the house of the Dursleys
+            .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Could I ...</span>
+         
+         <span class="s">could I tell him good-bye , sir, " asked Hagrid .</span>
+         
+         <span class="s">He bent his great , shaggy head over Harry and gave him a certainly very
+            scratchy , beard hairy kiss.
+         </span>
+         
+         <span class="s">Then, suddenly, Hagrid let out a howl like a wounded dog.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">" Shhh !</span>
+         
+         <span class="s">" Hissed Professor McGonagall , "you awaken even the Muggles 
+            <span class="dif" id="n272">on
+               <span class="box" id="bn272">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  insertion
+               </span>
+            </span> !
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">» 
+            <span class="dif" id="n273">Vv
+               <span class="box" id="bn273">
+                  Part Of Speech: 
+                  interjection
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n274">forgiveness
+               <span class="box" id="bn274">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> ," sobbed Hagrid , pulling 
+            <span class="dif" id="n275">
+               <span class="box" id="bn275">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  deletion
+               </span>
+            </span> a large , spotted handkerchief and burying his
+            face in it .
+         </span>
+         
+         <span class="s">"But I 
+            <span class="dif" id="n276">kk
+               <span class="box" id="bn276">
+                  Part Of Speech: 
+                  interjection
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>- just can not grasp - Lily
+            and James dead - and the poor little Harry must now live with the Muggles - "
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Yes, yes , that's all very sad, but get a grip , Hagrid , or 
+            <span class="dif" id="n277">we
+               <span class="box" id="bn277">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> will discover us," Professor McGonagall whispered
+            , patting Hagrid gingerly on the arm as Dumbledore stepped over the low garden wall
+            and walked to the front door .
+         </span>
+         
+         <span class="s">He gently laid Harry 
+            <span class="dif" id="n278">to
+               <span class="box" id="bn278">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the front door
+            , took a letter out of his cloak , tucked it between Harry's 
+            <span class="dif" id="n279">sheets
+               <span class="box" id="bn279">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> and then returned to the other two .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>A full minute the three stood there and looked at the little bundle ; Hagrid's
+            shoulders shook , Professor McGonagall blinked rapidly , and the sparkling light
+            that always seemed otherwise 
+            <span class="dif" id="n280">
+               <span class="box" id="bn280">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  deletion
+               </span>
+            </span> from Dumbledore's
+            eyes was 
+            <span class="dif" id="n281">probably
+               <span class="box" id="bn281">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n282">extinct
+               <span class="box" id="bn282">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Well," Dumbledore said finally, " that's it ...</span>
+         
+         <span class="s">We have nothing more to look for.</span>
+         
+         <span class="s">We'd better disappear and go to parties.</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>» 
+            <span class="dif" id="n283">Jaow
+               <span class="box" id="bn283">
+                  Part Of Speech: 
+                  interjection
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> " said Hagrid with very
+            muffled voice, " I'
+            <span class="dif" id="n284">ll take
+               <span class="box" id="bn284">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mood
+               </span>
+            </span> best 
+            <span class="dif" id="n285">off
+               <span class="box" id="bn285">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n286">that
+               <span class="box" id="bn286">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n287">box
+               <span class="box" id="bn287">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> .
+         </span>
+         
+         <span class="s">Night , Professor McGonagall - .</span>
+         
+         <span class="s">Professor Dumbledore , sir, "</span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>Hagrid wiped his face with the sleeve of his jacket , 
+            <span class="dif" id="n288">the
+               <span class="box" id="bn288">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> dripping-wet eyes , jumped on the bike and stirred up the
+            machine with a 
+            <span class="dif" id="n289">Fußkick
+               <span class="box" id="bn289">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> to life ; thundering
+            
+            <span class="dif" id="n290">she
+               <span class="box" id="bn290">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> rose into the air and disappeared
+            into the night .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"We 'll meet again soon , I suspect , Professor McGonagall ," said Dumbledore
+            , nodding to her.
+         </span>
+         
+         <span class="s">To answer Professor McGonagall blew her nose 
+            <span class="dif" id="n291">the
+               <span class="box" id="bn291">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  insertion
+               </span>
+            </span>
+            <span class="dif" id="n292"> nose
+               <span class="box" id="bn292">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  insertion
+               </span>
+            </span>.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">Dumbledore turned and walked away down the street.</span>
+         
+         <span class="s">On the corner he stopped and took out the 
+            <span class="dif" id="n293">Ausmacher
+               <span class="box" id="bn293">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> .
+         </span>
+         
+         <span class="s">He 
+            <span class="dif" id="n294">turned
+               <span class="box" id="bn294">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n295">
+               <span class="box" id="bn295">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  deletion
+               </span>
+            </span>once and twelve balls of light darted back to
+            their street lamps.
+         </span>
+         
+         <span class="s">
+            <span class="dif" id="n296">With
+               <span class="box" id="bn296">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> a 
+            <span class="dif" id="n297">time
+               <span class="box" id="bn297">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n298">of
+               <span class="box" id="bn298">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  insertion
+               </span>
+            </span> Privet Drive glowed orange, and he could
+            see a small tiger cat , 
+            <span class="dif" id="n299">the
+               <span class="box" id="bn299">
+                  Part Of Speech: 
+                  determiner
+                  Error Type: 
+                  insertion
+               </span>
+            </span>
+            
+            <span class="dif" id="n300">dot
+               <span class="box" id="bn300">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  insertion
+               </span>
+            </span> at the other end of the street 
+            <span class="dif" id="n301">
+               <span class="box" id="bn301">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  deletion
+               </span>
+            </span> around the corner.
+         </span>
+         
+         <span class="s">On the doorstep of number 4 , he could just see the bundle of linen cloth
+            .
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">"Good luck, Harry ," he murmured.</span>
+         
+         <span class="s">He turned on his heel and 
+            <span class="dif" id="n302">off
+               <span class="box" id="bn302">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  insertion
+               </span>
+            </span> with a
+            wave of his cloak , he was gone.
+         </span>
+         
+      </p>
+      
+      <p>
+         
+         <span class="s">
+            <span class="ast">*</span>A breeze ruffled the carefully manicured hedges of Privet Drive , which lay
+            silent and tidy under the ink -colored sky , and never would 
+            <span class="dif" id="n303">we
+               <span class="box" id="bn303">
+                  Part Of Speech: 
+                  pronoun
+                  Error Type: 
+                  person
+               </span>
+            </span> have thought that something 
+            <span class="dif" id="n304">unheard
+               <span class="box" id="bn304">
+                  Part Of Speech: 
+                  adjective
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> could happen.
+         </span>
+         
+         <span class="s">In his 
+            <span class="dif" id="n305">bedsheets
+               <span class="box" id="bn305">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> Harry Potter turned to
+            the side , without waking up .
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>His little fingers clung to the letter beside him and he slept on , not
+            knowing he was special , not knowing he was famous , not knowing that in a few hours
+            when Mrs. Dursley would open the front door , 
+            <span class="dif" id="n306">also
+               <span class="box" id="bn306">
+                  Part Of Speech: 
+                  adverb
+                  Error Type: 
+                  insertion
+               </span>
+            </span>
+            
+            <span class="dif" id="n307">observed
+               <span class="box" id="bn307">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span>
+            
+            <span class="dif" id="n308">around
+               <span class="box" id="bn308">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> the milk bottles , a 
+            <span class="dif" id="n309">cry
+               <span class="box" id="bn309">
+                  Part Of Speech: 
+                  noun
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> would wake him , and also not knowing that would
+            
+            <span class="dif" id="n310">make
+               <span class="box" id="bn310">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  insertion
+               </span>
+            </span> him torture and torment his cousin
+            Dudley in the next few weeks ...
+         </span>
+         
+         <span class="s">
+            <span class="ast">*</span>He could not know that at this very moment, all over the country 
+            <span class="dif" id="n311">held
+               <span class="box" id="bn311">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mood
+               </span>
+            </span> secret meetings , glasses were raised and muffled
+            voices 
+            <span class="dif" id="n312">saying
+               <span class="box" id="bn312">
+                  Part Of Speech: 
+                  verb
+                  Error Type: 
+                  mood
+               </span>
+            </span>, " 
+            <span class="dif" id="n313">In
+               <span class="box" id="bn313">
+                  Part Of Speech: 
+                  preposition
+                  Error Type: 
+                  mistranslation
+               </span>
+            </span> Harry Potter - the boy who lived !"
+         </span>
+         
+      </p>
+      
+      
+   </body>
+</html>

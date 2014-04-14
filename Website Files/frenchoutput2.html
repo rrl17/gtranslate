@@ -1,138 +1,91 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-   <html xmlns="http://www.w3.org/1999/xhtml">
-      <head>
-         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-         <title>Characterizing Linguistic Divergences in Machine Translation</title>
-         <link rel="stylesheet" type="text/css" href="general.css" />
-         <link rel="stylesheet" type="text/css" href="home2.css" />
-         <link rel="stylesheet" type="text/css" href="css/squiggle.css" />
-         <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
-         <script type="text/javascript" src="languageBox.js">/**/</script>
-         
-         <style type="text/css">
-             .box{
-             display:none;
-             position: absolute;
-             border: 5px solid blue;
-             background: gold;
-             }
-             .dif{
-             color:green;
-             }
+<?xml version="1.0" encoding="UTF-8"?><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+      <title>Characterizing Linguistic Divergences in Machine Translation</title>
+      <link rel="stylesheet" type="text/css" href="general.css"></link>
+      <link rel="stylesheet" type="text/css" href="home2.css"></link>
+      <link rel="stylesheet" type="text/css" href="css/squiggle.css"></link>
+      <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8"></link>
+      <style type="text/css">
+         .box{
+         display:none;
+         position: absolute;
+         border: 5px solid blue;
+         background: gold;
+         }
+         .dif{
+         color:green;
+         }
          div.para1{
-             text-align:left;
-             overflow:auto;
-             margin-right:auto;
-             margin-left:auto;
-             margin-top:5px;
-             margin-bottom:auto;
+         text-align:left;
+         overflow:auto;
+         margin-right:auto;
+         margin-left:auto;
+         margin-top:5px;
+         margin-bottom:auto;
          }
          div.para2{
-             text-align:right;
-             overflow:auto;
-             margin-right:auto;
-             margin-left:auto;
-             margin-top:5x;
-             margin-bottom:auto;
+         text-align:right;
+         overflow:auto;
+         margin-right:auto;
+         margin-left:auto;
+         margin-top:5x;
+         margin-bottom:auto;
          }
          
          
          div.subheadmain{
-             margin-left:5px;
-             margin-right:5px;
-             margin-top:5px;
-             margin-bottom:5px;
-             width:auto;
-             height:auto;
-             font-size:200%;
-             padding-top:0px;
-             padding-bottom:0px;
-             color:#5a5a1d;
-             text-align:center;
-             font-family:'starry_nightregular'
+         margin-left:5px;
+         margin-right:5px;
+         margin-top:5px;
+         margin-bottom:5px;
+         width:auto;
+         height:auto;
+         font-size:200%;
+         padding-top:0px;
+         padding-bottom:0px;
+         color:#5a5a1d;
+         text-align:center;
+         font-family:'starry_nightregular'
          
          }
          div.subhead1{
-             margin-left:5px;
-             margin-right:5px;
-             margin-top:5px;
-             margin-bottom:5px;
-             width:auto;
-             height:auto;
-             font-size:150%;
-             padding-top:0px;
-             padding-bottom:0px;
-             color:#5a5a1d;
-             text-align:left;
-             font-family:'starry_nightregular'
+         margin-left:5px;
+         margin-right:5px;
+         margin-top:5px;
+         margin-bottom:5px;
+         width:auto;
+         height:auto;
+         font-size:150%;
+         padding-top:0px;
+         padding-bottom:0px;
+         color:#5a5a1d;
+         text-align:left;
+         font-family:'starry_nightregular'
          
          }
          div.subhead2{
-             margin-left:5px;
-             margin-right:5px;
-             margin-top:5px;
-             margin-bottom:5px;
-             width:auto;
-             height:auto;
-             font-size:150%;
-             padding-top:0px;
-             padding-bottom:0px;
-             color:#5a5a1d;
-             text-align:right;
-             font-family:'starry_nightregular'
+         margin-left:5px;
+         margin-right:5px;
+         margin-top:5px;
+         margin-bottom:5px;
+         width:auto;
+         height:auto;
+         font-size:150%;
+         padding-top:0px;
+         padding-bottom:0px;
+         color:#5a5a1d;
+         text-align:right;
+         font-family:'starry_nightregular'
          
-         }</style>
-      </head>
-      <body>
-         <div class="crumbTrail"><a href="http://www.obdurodon.org/">&lt;oo&gt;</a> &rarr; <a
-            href="http://dh.obdurodon.org/">&lt;dh&gt;</a> &rarr; <a
-               href="http://translate.obdurodon.org/">&lt;translate&gt;</a> Characterizing Linguistic
-            Divergences in Machine Translation</div>
-         <div class="img">
-            <img src="images/frenchoutputimg.jpg" alt="French castle" />French castle</div>
-         <h1>Le Francais</h1>
-         <h2>Chapitre 1 - Le survivant</h2>
-         <div id="menu">
-            <ul>
-               <li><a href="index.html"><span>Home</span></a></li>
-               <li class="drop"><a><i>Lumos!</i></a>
-                  <ul>
-                     <li><a href="goals.html"><span>Goals</span></a></li>
-                     <li><a href="dig.html"><span>&lt;dh&gt;</span></a></li>
-                     <li><a href="auth.html"><span>Authors</span></a></li>
-                     <li><a href="blog.html"><span>Blog</span></a></li>
-                  </ul>
-               </li>
-               <li class="drop"><a>Background</a>
-                  <ul>
-                     <li><a href="ling.html"><span>Linguistics</span></a></li>
-                     <li><a href="googletrans.html"><span>Google</span></a></li>
-                     <li><a href="indoeuropean.html"><span>Languages</span></a></li>
-                  </ul></li>
-               <li class="drop"><a>Research</a>
-                  <ul>
-                     <li><a href="hyp.html"><span>Hypothesis</span></a></li>
-                     <li><a href="meth.html"><span>Method</span></a></li>
-                     <li><a href="results.html"><span>Results</span></a></li>
-                     <li><a href="disc.html"><span>Discussion</span></a></li>
-                  </ul></li>
-               <li class="drop"><a>Documents</a>
-                  <ul>
-                     <li><a href="germanoutput.html"><span>German</span></a></li>
-                     <li><a href="frenchoutput.html"><span>French</span></a></li>
-                     <li><a href="slovakoutput.html"><span>Slovak</span></a></li>
-                     <li><a href="raw.html"><span>Download</span></a></li>
-                  </ul></li>
-               <li class="drop"><a>All was well.</a>
-                  <ul>
-                     <li><a href="future.html"><span>Future</span></a></li>
-                     <li><a href="thanks.html"><span>Thanks</span></a></li>
-                     <li><a href="resources.html"><span> Resources</span></a></li>
-                     <li><a href="bib.html"><span>References</span></a></li>
-                  </ul></li>
-            </ul>
-         </div>
-         <div class="content">
+         }
+      </style>
+      <script type="text/javascript" src="languageBox.js">/**/</script>
+   </head>
+   <body>
+      <h2>Chapter One</h2>
+      
+      
       <p>
          
          <span class="s">
@@ -143,7 +96,7 @@
          <span class="s">
             <span class="ast">*</span>
             <span class="dif" id="n1">Anyone
-               <span class="box">
+               <span class="box" id="bn1">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -164,7 +117,7 @@
          <span class="s">
             <span class="ast">*</span>
             <span class="dif" id="n2">It
-               <span class="box">
+               <span class="box" id="bn2">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -176,7 +129,7 @@
          
          <span class="s">Mrs. Dursley , meanwhile, was thin and blonde and had a 
             <span class="dif" id="n3">stroke
-               <span class="box">
+               <span class="box" id="bn3">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -185,7 +138,7 @@
             </span> two times longer than the average, which was very useful
             to 
             <span class="dif" id="n4">him
-               <span class="box">
+               <span class="box" id="bn4">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -193,7 +146,7 @@
                </span>
             </span> to spy on 
             <span class="dif" id="n5">his
-               <span class="box">
+               <span class="box" id="bn5">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -204,7 +157,7 @@
          
          <span class="s">The Dursleys had a small son called Dudley and in their opinion 
             <span class="dif" id="n6">it
-               <span class="box">
+               <span class="box" id="bn6">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -224,7 +177,7 @@
          <span class="s">
             <span class="ast">*</span>If anyone were to ever hear about Potter , they were convinced they 
             <span class="dif" id="n7">just do not call .
-               <span class="box">
+               <span class="box" id="bn7">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -247,7 +200,7 @@
             neighbors think if by misfortune Potter 
             <span class="dif" id="n8">showed their
                street
-               <span class="box">
+               <span class="box" id="bn8">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -262,7 +215,7 @@
             <span class="ast">*</span>Its existence constituted an additional reason to keep Potter away : there was
             no question that the little Dudley starts to 
             <span class="dif" id="n9">attend
-               <span class="box">
+               <span class="box" id="bn9">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -283,7 +236,7 @@
          <span class="s">
             <span class="ast">*</span>Mr. Dursley hummed a tune tying 
             <span class="dif" id="n10">its
-               <span class="box">
+               <span class="box" id="bn10">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -293,7 +246,7 @@
             most sinister tie for work and Mrs Dursley teasingly told the latest gossip in the
             neighborhood trying to install 
             <span class="dif" id="n11">it
-               <span class="box">
+               <span class="box" id="bn11">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -302,7 +255,7 @@
             </span>
             
             <span class="dif" id="n12">on
-               <span class="box">
+               <span class="box" id="bn12">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -318,7 +271,7 @@
          
          <span class="s">None of them noticed the big bronze owl 
             <span class="dif" id="n13">plumage
-               <span class="box">
+               <span class="box" id="bn13">
                   Part Of Speech: 
                   adjective
                   Error Type: 
@@ -327,7 +280,7 @@
             </span>
             
             <span class="dif" id="n14">fluttered
-               <span class="box">
+               <span class="box" id="bn14">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -344,7 +297,7 @@
             <span class="ast">*</span>At half past eight , Mr. Dursley picked up his briefcase , kissed on the cheek
             
             <span class="dif" id="n15">and Mrs. Dursley
-               <span class="box">
+               <span class="box" id="bn15">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -353,7 +306,7 @@
             </span> tried to kiss Dudley, but
             without success, as 
             <span class="dif" id="n16">it
-               <span class="box">
+               <span class="box" id="bn16">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -370,7 +323,7 @@
          
          <span class="s">He got into his car and backed down the driveway leading 
             <span class="dif" id="n17">to
-               <span class="box">
+               <span class="box" id="bn17">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -388,8 +341,8 @@
          </span>
          
          <span class="s">
-            <span class="dif" id="n18">RevÃƒÂ©rifia
-               <span class="box">
+            <span class="dif" id="n18">RevÃ©rifia
+               <span class="box" id="bn18">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -398,7 +351,7 @@
             </span> it and saw that the cat was
             there but no trace of road map , he 
             <span class="dif" id="n19">had fooled
-               <span class="box">
+               <span class="box" id="bn19">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -410,7 +363,7 @@
          
          <span class="s">
             <span class="dif" id="n20">Mrs.
-               <span class="box">
+               <span class="box" id="bn20">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -425,7 +378,7 @@
             he did not read it 
             <span class="dif" id="n21">i watched / i plate
                
-               <span class="box">
+               <span class="box" id="bn21">
                   Part Of Speech: 
                   conjunction
                   Error Type: 
@@ -453,7 +406,7 @@
          <span class="s">
             <span class="ast">*</span>Mr. Dursley could not bear people - young had shifted some of these 
             <span class="dif" id="n22">accoutrements
-               <span class="box">
+               <span class="box" id="bn22">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -473,7 +426,7 @@
          
          <span class="s">What 
             <span class="dif" id="n23">impudence
-               <span class="box">
+               <span class="box" id="bn23">
                   Part Of Speech: 
                   adjective
                   Error Type: 
@@ -486,7 +439,7 @@
             <span class="ast">*</span>Mr. Dursley as he must have thought an animated street, these people were
             there to raise money for the benefit of 
             <span class="dif" id="n24">any
-               <span class="box">
+               <span class="box" id="bn24">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -500,7 +453,7 @@
             
             
             <span class="dif" id="n25">This could be it .
-               <span class="box">
+               <span class="box" id="bn25">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -526,7 +479,7 @@
          
          <span class="s">Had it been otherwise, 
             <span class="dif" id="n26">he
-               <span class="box">
+               <span class="box" id="bn26">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -539,7 +492,7 @@
          <span class="s">
             <span class="ast">*</span>He did not see the owls flying on the wing but 
             <span class="dif" id="n27">passers
-               <span class="box">
+               <span class="box" id="bn27">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -548,7 +501,7 @@
             </span>
             
             <span class="dif" id="n28">them
-               <span class="box">
+               <span class="box" id="bn28">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -562,7 +515,7 @@
             not
             
             <span class="dif" id="n29">come
-               <span class="box">
+               <span class="box" id="bn29">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -574,7 +527,7 @@
          <span class="s">
             <span class="ast">*</span>He sharply 
             <span class="dif" id="n30">rebuked
-               <span class="box">
+               <span class="box" id="bn30">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -588,7 +541,7 @@
             <span class="ast">*</span>He felt a good mood until lunchtime where he thought it would be good to
             stretch 
             <span class="dif" id="n31">the
-               <span class="box">
+               <span class="box" id="bn31">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -609,7 +562,7 @@
          <span class="s">
             <span class="ast">*</span>
             <span class="dif" id="n32">Passersby
-               <span class="box">
+               <span class="box" id="bn32">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -620,7 +573,7 @@
             <span class="dif" id="n33">were dressed in cloaks him completely out of his
                head, but when he again saw some near the bakery, he passed them in their
                launching an angry look
-               <span class="box">
+               <span class="box" id="bn33">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -681,7 +634,7 @@
             drills and when he left the office at five o'clock, he was still so worried that
             someone 
             <span class="dif" id="n34">knocked
-               <span class="box">
+               <span class="box" id="bn34">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -697,7 +650,7 @@
          <span class="s">
             <span class="ast">*</span>- Heartbroken , he muttered the old tiny man he failed to do 
             <span class="dif" id="n35">fell
-               <span class="box">
+               <span class="box" id="bn35">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -731,7 +684,7 @@
          <span class="s">
             <span class="ast">*</span>When 
             <span class="dif" id="n36">engaged
-               <span class="box">
+               <span class="box" id="bn36">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -741,7 +694,7 @@
             Drive, he saw that the cat was still there, in a bad mood , he took a broom in the
             garage and 
             <span class="dif" id="n37">drove
-               <span class="box">
+               <span class="box" id="bn37">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -756,7 +709,7 @@
          <span class="s">During dinner , Mrs. Dursley told him the latest gossip of the neighborhood
             and 
             <span class="dif" id="n38">it
-               <span class="box">
+               <span class="box" id="bn38">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -765,7 +718,7 @@
             </span> also reported that Dudley had learned a
             new word : " 
             <span class="dif" id="n39">not
-               <span class="box">
+               <span class="box" id="bn39">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -774,7 +727,7 @@
             </span>! " He sat in the living room
             and 
             <span class="dif" id="n40">looked
-               <span class="box">
+               <span class="box" id="bn40">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -790,7 +743,7 @@
          
          <span class="s">- According to testimony from various regions , it seems that 
             <span class="dif" id="n41">the
-               <span class="box">
+               <span class="box" id="bn41">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -802,7 +755,7 @@
          
          <span class="s">Normally , owls are nocturnal 
             <span class="dif" id="n42">raptors
-               <span class="box">
+               <span class="box" id="bn42">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -811,7 +764,7 @@
             </span>,
             it is rare to see 
             <span class="dif" id="n43">
-               <span class="box">
+               <span class="box" id="bn43">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -828,7 +781,7 @@
          
          <span class="s">And now came the time of the weather , with forecasts 
             <span class="dif" id="n44">of
-               <span class="box">
+               <span class="box" id="bn44">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -840,7 +793,7 @@
          <span class="s">
             <span class="ast">*</span>So Jim , is what we should expect further 
             <span class="dif" id="n45">falls
-               <span class="box">
+               <span class="box" id="bn45">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -849,7 +802,7 @@
             </span>
             
             <span class="dif" id="n46">
-               <span class="box">
+               <span class="box" id="bn46">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -865,7 +818,7 @@
          <span class="s">- That I would not be able to tell you , Ted, said the man on the weather ,
             but know in any case that the owls are not the only 
             <span class="dif" id="n47">
-               <span class="box">
+               <span class="box" id="bn47">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -882,7 +835,7 @@
          
          <span class="s">Maybe it was 
             <span class="dif" id="n48">
-               <span class="box">
+               <span class="box" id="bn48">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -908,7 +861,7 @@
          
          <span class="s">And these murmurs , whispers 
             <span class="dif" id="n49">on
-               <span class="box">
+               <span class="box" id="bn49">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -920,7 +873,7 @@
          
          <span class="s">That finally convinced Mr. Dursley 
             <span class="dif" id="n50">talking
-               <span class="box">
+               <span class="box" id="bn50">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -939,7 +892,7 @@
          <span class="s">
             <span class="ast">*</span>- Uh ... Petunia , dear, 
             <span class="dif" id="n51">he
-               <span class="box">
+               <span class="box" id="bn51">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -948,7 +901,7 @@
             </span>
             
             <span class="dif" id="n52">says
-               <span class="box">
+               <span class="box" id="bn52">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -989,7 +942,7 @@
          
          <span class="s">- So what? 
             <span class="dif" id="n53">Threw
-               <span class="box">
+               <span class="box" id="bn53">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -1004,7 +957,7 @@
          
          <span class="s">- I thought ... maybe ... it was something to do with 
             <span class="dif" id="n54">his
-               <span class="box">
+               <span class="box" id="bn54">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -1013,7 +966,7 @@
             </span>
             
             <span class="dif" id="n55">band
-               <span class="box">
+               <span class="box" id="bn55">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1028,7 +981,7 @@
          
          <span class="s">Mrs. Dursley curled 
             <span class="dif" id="n56">
-               <span class="box">
+               <span class="box" id="bn56">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -1036,7 +989,7 @@
                </span>
             </span> lips drinking 
             <span class="dif" id="n57">his
-               <span class="box">
+               <span class="box" id="bn57">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -1047,7 +1000,7 @@
          
          <span class="s">Her husband wondered if he would dare tell 
             <span class="dif" id="n58">him
-               <span class="box">
+               <span class="box" id="bn58">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -1059,7 +1012,7 @@
          <span class="s">
             <span class="ast">*</span>He decided that yes and with 
             <span class="dif" id="n59">
-               <span class="box">
+               <span class="box" id="bn59">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -1075,7 +1028,7 @@
          
          <span class="s">- I 'm telling you this because I heard the name of your sister in 
             <span class="dif" id="n60">
-               <span class="box">
+               <span class="box" id="bn60">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -1083,7 +1036,7 @@
                </span>
             </span> conversations 
             <span class="dif" id="n61">
-               <span class="box">
+               <span class="box" id="bn61">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -1092,7 +1045,7 @@
             </span>
             these strange people, their son ... 
             <span class="dif" id="n62">it
-               <span class="box">
+               <span class="box" id="bn62">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1101,7 +1054,7 @@
             </span>
             
             <span class="dif" id="n63">has
-               <span class="box">
+               <span class="box" id="bn63">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -1124,7 +1077,7 @@
          <span class="s">
             <span class="ast">*</span>- What is 
             <span class="dif" id="n64">the
-               <span class="box">
+               <span class="box" id="bn64">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -1150,7 +1103,7 @@
          
          <span class="s">- Ah yes , said Mr Dursley 
             <span class="dif" id="n65">felt
-               <span class="box">
+               <span class="box" id="bn65">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -1173,7 +1126,7 @@
          <span class="s">While Mrs. Dursley was in the bathroom, Mr. Dursley crept to the bedroom
             window and 
             <span class="dif" id="n66">cast
-               <span class="box">
+               <span class="box" id="bn66">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -1198,7 +1151,7 @@
          
          <span class="s">If this was the case ... If it turns out they were 
             <span class="dif" id="n67">parents
-               <span class="box">
+               <span class="box" id="bn67">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1309,7 +1262,7 @@
          
          <span class="s">He turned his head to send a smile to 
             <span class="dif" id="n68">chat
-               <span class="box">
+               <span class="box" id="bn68">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1321,7 +1274,7 @@
          <span class="s">
             <span class="ast">*</span>Dumbledore 
             <span class="dif" id="n69">smiled
-               <span class="box">
+               <span class="box" id="bn69">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -1335,7 +1288,7 @@
          
          <span class="s">Her hair was pulled 
             <span class="dif" id="n70">
-               <span class="box">
+               <span class="box" id="bn70">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -1344,7 +1297,7 @@
             </span>
             
             <span class="dif" id="n71">
-               <span class="box">
+               <span class="box" id="bn71">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -1365,7 +1318,7 @@
          
          <span class="s">- My dear Professor , I 've never seen a cat take such a 
             <span class="dif" id="n72">steep
-               <span class="box">
+               <span class="box" id="bn72">
                   Part Of Speech: 
                   adjective
                   Error Type: 
@@ -1380,7 +1333,7 @@
          
          <span class="s">- You too would be a bit 
             <span class="dif" id="n73">steep
-               <span class="box">
+               <span class="box" id="bn73">
                   Part Of Speech: 
                   adjective
                   Error Type: 
@@ -1389,7 +1342,7 @@
             </span> if you
             
             <span class="dif" id="n74">stay
-               <span class="box">
+               <span class="box" id="bn74">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -1427,7 +1380,7 @@
          
          <span class="s">They have spoken 
             <span class="dif" id="n75">
-               <span class="box">
+               <span class="box" id="bn75">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -1436,7 +1389,7 @@
             </span>
             
             <span class="dif" id="n76">
-               <span class="box">
+               <span class="box" id="bn76">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1445,7 +1398,7 @@
             </span>
             
             <span class="dif" id="n77">to
-               <span class="box">
+               <span class="box" id="bn77">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -1457,7 +1410,7 @@
          <span class="s">
             <span class="ast">*</span>She showed 
             <span class="dif" id="n78">
-               <span class="box">
+               <span class="box" id="bn78">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1465,7 +1418,7 @@
                </span>
             </span> a nod 
             <span class="dif" id="n79">
-               <span class="box">
+               <span class="box" id="bn79">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -1480,7 +1433,7 @@
          
          <span class="s">- I heard 
             <span class="dif" id="n80">
-               <span class="box">
+               <span class="box" id="bn80">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1491,7 +1444,7 @@
          
          <span class="s">They reported the 
             <span class="dif" id="n81">theft
-               <span class="box">
+               <span class="box" id="bn81">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1507,7 +1460,7 @@
          
          <span class="s">I bet it is still a 
             <span class="dif" id="n82">favorite
-               <span class="box">
+               <span class="box" id="bn82">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1516,7 +1469,7 @@
             </span>
             
             <span class="dif" id="n83">
-               <span class="box">
+               <span class="box" id="bn83">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -1567,7 +1520,7 @@
          
          <span class="s">I guess he 
             <span class="dif" id="n84">
-               <span class="box">
+               <span class="box" id="bn84">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -1587,7 +1540,7 @@
          
          <span class="s">How about an 
             <span class="dif" id="n85">Eskimo Lemon
-               <span class="box">
+               <span class="box" id="bn85">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1608,7 +1561,7 @@
          
          <span class="s">- An 
             <span class="dif" id="n86">Eskimo Lemon
-               <span class="box">
+               <span class="box" id="bn86">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1629,7 +1582,7 @@
             <span class="ast">*</span>- Thank you, not for me, coldly replied Professor McGonagall seemed to feel
             that the time was not ripe to eat 
             <span class="dif" id="n87">ice
-               <span class="box">
+               <span class="box" id="bn87">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1662,7 +1615,7 @@
          
          <span class="s">Professor McGonagall grimaced but Dumbledore had left two 
             <span class="dif" id="n88">Eskimo Lemon
-               <span class="box">
+               <span class="box" id="bn88">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1693,7 +1646,7 @@
          
          <span class="s">Everyone knows you 're the only one to have never 
             <span class="dif" id="n89">scared
-               <span class="box">
+               <span class="box" id="bn89">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -1719,7 +1672,7 @@
          <span class="s">
             <span class="ast">*</span>- This is simply because you have too much ... 
             <span class="dif" id="n90">
-               <span class="box">
+               <span class="box" id="bn90">
                   Part Of Speech: 
                   conjunction
                   Error Type: 
@@ -1736,7 +1689,7 @@
          
          <span class="s">I never blushed so much since the day when Madam Pomfrey told me she 
             <span class="dif" id="n91">was
-               <span class="box">
+               <span class="box" id="bn91">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -1779,7 +1732,7 @@
          
          <span class="s">- What 
             <span class="dif" id="n92">to
-               <span class="box">
+               <span class="box" id="bn92">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1831,7 +1784,7 @@
          
          <span class="s">But 
             <span class="dif" id="n93">it
-               <span class="box">
+               <span class="box" id="bn93">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -1839,7 +1792,7 @@
                </span>
             </span> was not 
             <span class="dif" id="n94">
-               <span class="box">
+               <span class="box" id="bn94">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -1850,7 +1803,7 @@
          
          <span class="s">
             <span class="dif" id="n95">It
-               <span class="box">
+               <span class="box" id="bn95">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -1877,7 +1830,7 @@
          
          <span class="s">It is amazing ...nothing else had been able to stop 
             <span class="dif" id="n96">
-               <span class="box">
+               <span class="box" id="bn96">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -1907,7 +1860,7 @@
          
          <span class="s">Dumbledore 
             <span class="dif" id="n97">
-               <span class="box">
+               <span class="box" id="bn97">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -1916,7 +1869,7 @@
             </span>
             
             <span class="dif" id="n98">
-               <span class="box">
+               <span class="box" id="bn98">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -1958,7 +1911,7 @@
          
          <span class="s">Not the people who live in the house she said, pointing 
             <span class="dif" id="n99">the
-               <span class="box">
+               <span class="box" id="bn99">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -1966,7 +1919,7 @@
                </span>
             </span> finger 
             <span class="dif" id="n100">
-               <span class="box">
+               <span class="box" id="bn100">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -1979,7 +1932,7 @@
          
          <span class="s">You can not imagine 
             <span class="dif" id="n101">
-               <span class="box">
+               <span class="box" id="bn101">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2003,7 +1956,7 @@
          
          <span class="s">His uncle and aunt 
             <span class="dif" id="n102">
-               <span class="box">
+               <span class="box" id="bn102">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -2011,7 +1964,7 @@
                </span>
             </span> explain 
             <span class="dif" id="n103">
-               <span class="box">
+               <span class="box" id="bn103">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -2048,7 +2001,7 @@
          
          <span class="s">- 
             <span class="dif" id="n104">This
-               <span class="box">
+               <span class="box" id="bn104">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -2056,7 +2009,7 @@
                </span>
             </span> is Hagrid must bring 
             <span class="dif" id="n105">
-               <span class="box">
+               <span class="box" id="bn105">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -2083,7 +2036,7 @@
          
          <span class="s">- I'm not saying 
             <span class="dif" id="n106">it
-               <span class="box">
+               <span class="box" id="bn106">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2092,7 +2045,7 @@
             </span> lacks heart , said
             Professor McGonagall grudgingly , but acknowledge that 
             <span class="dif" id="n107">it
-               <span class="box">
+               <span class="box" id="bn107">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2103,7 +2056,7 @@
          
          <span class="s">
             <span class="dif" id="n108">it
-               <span class="box">
+               <span class="box" id="bn108">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2136,7 +2089,7 @@
          
          <span class="s">The bike was huge, but it was nothing compared to the man who sat on 
             <span class="dif" id="n109">
-               <span class="box">
+               <span class="box" id="bn109">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2147,7 +2100,7 @@
          
          <span class="s">
             <span class="dif" id="n110">It
-               <span class="box">
+               <span class="box" id="bn110">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2160,7 +2113,7 @@
          <span class="s">
             <span class="ast">*</span>It was like a wild, with 
             <span class="dif" id="n111">her
-               <span class="box">
+               <span class="box" id="bn111">
                   Part Of Speech: 
                   pronoun
                   Error Type: 
@@ -2183,7 +2136,7 @@
          
          <span class="s">Where did you 
             <span class="dif" id="n112">researched
-               <span class="box">
+               <span class="box" id="bn112">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -2201,7 +2154,7 @@
          
          <span class="s">- 
             <span class="dif" id="n113">The 've
-               <span class="box">
+               <span class="box" id="bn113">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2211,7 +2164,7 @@
             Dumbledore replied the giant down with care of the bike , it is the young Sirius
             Black who lent 
             <span class="dif" id="n114">
-               <span class="box">
+               <span class="box" id="bn114">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2220,7 +2173,7 @@
             </span>
             
             <span class="dif" id="n115">
-               <span class="box">
+               <span class="box" id="bn115">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -2233,7 +2186,7 @@
             <span class="ast">*</span>Otherwise, the house was almost completely destroyed, but I managed to get out
             of there before the Muggles begin to 
             <span class="dif" id="n116">replicate
-               <span class="box">
+               <span class="box" id="bn116">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -2270,7 +2223,7 @@
          
          <span class="s">
             <span class="dif" id="n117">It
-               <span class="box">
+               <span class="box" id="bn117">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2295,7 +2248,7 @@
          
          <span class="s">Myself, I have one above the left knee , which is the exact 
             <span class="dif" id="n118">plan
-               <span class="box">
+               <span class="box" id="bn118">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2341,7 +2294,7 @@
          
          <span class="s">
             <span class="dif" id="n119">As
-               <span class="box">
+               <span class="box" id="bn119">
                   Part Of Speech: 
                   conjunction
                   Error Type: 
@@ -2358,7 +2311,7 @@
          
          <span class="s">I'm going to 
             <span class="dif" id="n120">make
-               <span class="box">
+               <span class="box" id="bn120">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -2366,7 +2319,7 @@
                </span>
             </span> the bike 
             <span class="dif" id="n121">
-               <span class="box">
+               <span class="box" id="bn121">
                   Part Of Speech: 
                   preposition
                   Error Type: 
@@ -2388,7 +2341,7 @@
          
          <span class="s">In a roar , the bike 
             <span class="dif" id="n122">
-               <span class="box">
+               <span class="box" id="bn122">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -2404,7 +2357,7 @@
          
          <span class="s">- 
             <span class="dif" id="n123">Soon
-               <span class="box">
+               <span class="box" id="bn123">
                   Part Of Speech: 
                   adverb
                   Error Type: 
@@ -2425,7 +2378,7 @@
          <span class="s">
             <span class="ast">*</span>He stopped at the corner and took the extinguisher in his pocket 
             <span class="dif" id="n124">money
-               <span class="box">
+               <span class="box" id="bn124">
                   Part Of Speech: 
                   adjective
                   Error Type: 
@@ -2436,7 +2389,7 @@
          
          <span class="s">He operated 
             <span class="dif" id="n125">
-               <span class="box">
+               <span class="box" id="bn125">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2453,7 +2406,7 @@
          
          <span class="s">It also 
             <span class="dif" id="n126">saw
-               <span class="box">
+               <span class="box" id="bn126">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -2469,7 +2422,7 @@
          
          <span class="s">- Good luck, Harry , he murmured without doubt the number of 
             <span class="dif" id="n127">concern
-               <span class="box">
+               <span class="box" id="bn127">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2477,7 +2430,7 @@
                </span>
             </span> that would 
             <span class="dif" id="n128">cause
-               <span class="box">
+               <span class="box" id="bn128">
                   Part Of Speech: 
                   verb
                   Error Type: 
@@ -2488,7 +2441,7 @@
          
          <span class="s">He turned and disappeared in a flurry of 
             <span class="dif" id="n129">
-               <span class="box">
+               <span class="box" id="bn129">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -2502,7 +2455,7 @@
          
          <span class="s">
             <span class="dif" id="n130">Her
-               <span class="box">
+               <span class="box" id="bn130">
                   Part Of Speech: 
                   determiner
                   Error Type: 
@@ -2511,7 +2464,7 @@
             </span> small hand closed on the letter
             placed beside him and he continued to sleep without knowing 
             <span class="dif" id="n131">it
-               <span class="box">
+               <span class="box" id="bn131">
                   Part Of Speech: 
                   noun
                   Error Type: 
@@ -2529,10 +2482,7 @@
          <span class="s">The Survivor! "</span>
          
       </p>
-         </div>
-         <div class="lastModified">Last Modified:
-            <script type="text/javascript">
-document.write(document.lastModified);
-</script></div>
-      </body>
-   </html>
+      
+      
+   </body>
+</html>

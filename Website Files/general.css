@@ -1,4 +1,5 @@
-body{background-color:#ffffff;
+body{
+    background-color:#ffffff;
     color:#000000;
     background-image:url(owlbg2sepia.jpg);
     background-repeat:no-repeat;
@@ -6,45 +7,129 @@ body{background-color:#ffffff;
     text-align:center;
     background-size:100%;
 }
-div.img
-  {
-  margin-left:auto;
-  margin-right:auto;
-  padding: 0px;
-  width: 550px;
-  height: 300px;
-  overflow: hidden;
-  text-align:center
-  }
+div.crumbTrail{
+    background-color:#f1f1d4;
+    font-family:"Helvetica", sans-serif;
+    color:#000000;
+    text-align:left;
+    margin-top:10px;
+    margin-bottom:10px;
 
-h1 {     
+}
+a{
+    color:#696922;
+    text-decoration:underline;
+}
+
+
+a:hover{
+    color:#66CCFF;
+    text-decoration:underline;
+}
+
+div.container{
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-right:0px;
+    padding-left:0px;
+}
+
+
+div.img
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-right:0px;
+    padding-left:0px;
+    width:550px;
+    overflow:hidden;
+    text-align:right;
+    font-family:"Times New Roman";
+    font-size:80%;
+}
+
+
+
+h1{
     margin-left:auto;
     margin-right:auto;
     width:auto;
     height:auto;
-    padding:0px;
-    text-align: center;
-    font-family:"Georgia"
-    }
-
-p{
-    background-color:#f1f1d4;
-    color:#000000;
-    font-family:"Georgia"; 
-    margin:auto; 
-    width:575px; 
-    padding:10px;
-    text-align:left;  
-    margin-left:auto;
-    margin-right:auto
-}
-table.globe{
-    background-color:#f1f1d4;
-    color:#000000;
-    font-family:"Georgia"; 
-    margin:auto; 
-    width:590px; 
+    font-size:250%;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    color:#4b4b19;
     text-align:center;
+    font-family:'starry_nightregular';
+
+}
+
+h2{
     margin-left:auto;
-    margin-right:auto
+    margin-right:auto;
+    margin-top:0px;
+    width:auto;
+    height:auto;
+    font-size:120%;
+    padding-top:0px;
+    padding-bottom:0px;
+    color:#1f1f0a;
+    text-align:center;
+    font-family:'starry_nightregular';
+
+}
+
+
+
+
+div.content{
+    background-color:#f1f1d4;
+    overflow:auto;
+    color:#000000;
+    font-family:"Georgia";
+    width:630px;
+    padding:5px;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+table.error{
+    background-color:#f1f1d4;
+    color:#000000;
+    font-family:"Georgia";
+    width:590px;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+
+div.lastModified{
+    font-family:"Times New Roman";
+    color:#000000;
+    text-align:right;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:100%;
+    color:#000000;
+    text-align:right;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-position:right bottom;
 }
